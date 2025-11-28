@@ -1,0 +1,300 @@
+:root {
+  --bg-soft: #f7f8fb;
+  --panel-bg: #ffffff;
+  --border-soft: #e5e7eb;
+  --text-primary: #1f2933;
+  --text-muted: #52616b;
+  --accent: #dbeafe;
+  --accent-strong: #bfdbfe;
+  --pill-bg: #e3f2fd;
+  --pill-text: #0f172a;
+  --shadow-soft: 0 6px 14px rgba(15, 23, 42, 0.08);
+}
+
+body.app-body {
+  margin: 0;
+  background: var(--bg-soft);
+  color: var(--text-primary);
+  font-family: "Inter", "SF Pro", system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.page-shell {
+  padding: 24px 28px 32px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.top-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.top-nav a {
+  color: var(--text-primary);
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: var(--panel-bg);
+  border: 1px solid var(--border-soft);
+  box-shadow: var(--shadow-soft);
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.top-nav a:hover {
+  background: var(--accent);
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.12);
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid var(--border-soft);
+  margin: 12px 0 20px;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-top: 0;
+}
+
+p, label, input, select, button, textarea, table {
+  font-family: inherit;
+  font-size: 15px;
+}
+
+.page-card {
+  background: var(--panel-bg);
+  border: 1px solid var(--border-soft);
+  border-radius: 14px;
+  padding: 18px 20px;
+  box-shadow: var(--shadow-soft);
+  margin-bottom: 20px;
+}
+
+.controls,
+.hours-btn-container,
+.gantt-controls,
+.quick-card-form,
+.pedidos-calendar-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.controls label,
+.quick-card-form label {
+  color: var(--text-muted);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: #f0f2f5;
+  border-radius: 999px;
+  border: 1px solid var(--border-soft);
+}
+
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+  border: 1px solid var(--border-soft);
+  border-radius: 12px;
+  padding: 8px 12px;
+  background: var(--panel-bg);
+  color: var(--text-primary);
+  line-height: 22px;
+  box-shadow: inset 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+button,
+.controls button,
+.gantt-controls button,
+.quick-card-form button,
+.save-btn,
+#hours-btn,
+#today-btn,
+.order-toggle,
+#summary-pdf-btn,
+#expand_all,
+#collapse_all,
+#zoom_in,
+#zoom_out,
+#sort_start,
+#sort_due,
+#go_today,
+.pill-button {
+  border: 1px solid var(--border-soft);
+  background: var(--pill-bg);
+  color: var(--pill-text);
+  padding: 8px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  line-height: 20px;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+button:hover,
+.controls button:hover,
+.gantt-controls button:hover,
+.quick-card-form button:hover,
+.save-btn:hover,
+#hours-btn:hover,
+#today-btn:hover,
+.order-toggle:hover,
+#summary-pdf-btn:hover,
+.pill-button:hover {
+  background: var(--accent);
+  border-color: var(--accent-strong);
+  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.12);
+}
+
+.hours-btn-container {
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.hours-btn-container .control-bar {
+  flex: 1;
+}
+
+.control-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.link-button {
+  text-decoration: none;
+}
+
+.schedule-wrapper,
+.pedidos-calendar-stack,
+.gantt-wrapper {
+  margin-top: 16px;
+}
+
+.schedule {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: var(--panel-bg);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+  border: 1px solid var(--border-soft);
+}
+
+.schedule thead th,
+.schedule tfoot th {
+  background: #f3f4f6;
+  color: var(--text-primary);
+  padding: 12px 10px;
+  line-height: 22px;
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.schedule tbody tr:nth-child(odd) td { background: #ffffff; }
+.schedule tbody tr:nth-child(even) td { background: #f9fafb; }
+
+.schedule td,
+.schedule th {
+  padding: 12px 10px;
+  line-height: 22px;
+  border-right: 1px solid var(--border-soft);
+}
+
+.schedule td:last-child,
+.schedule th:last-child {
+  border-right: none;
+}
+
+.schedule tbody tr:last-child td {
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.schedule .resource-col {
+  background: #f3f4f6;
+  font-weight: 600;
+  min-width: 160px;
+}
+
+.calendar-flex {
+  display: grid;
+  grid-template-columns: 3fr 1.2fr;
+  gap: 16px;
+  align-items: start;
+}
+
+.unplanned-panel,
+.complete-conflicts,
+.complete-notes,
+.note-form,
+.pedidos-calendar-container,
+.gantt-controls {
+  background: var(--panel-bg);
+  border: 1px solid var(--border-soft);
+  border-radius: 14px;
+  padding: 14px 16px;
+  box-shadow: var(--shadow-soft);
+}
+
+.note-form td {
+  padding: 8px 6px;
+  line-height: 20px;
+}
+
+.quick-card-form {
+  margin-bottom: 12px;
+}
+
+.pedidos-calendar {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: var(--panel-bg);
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border-soft);
+  box-shadow: var(--shadow-soft);
+}
+
+.pedidos-calendar th,
+.pedidos-calendar td {
+  padding: 10px 12px;
+  line-height: 22px;
+}
+
+.gantt-controls input[type="text"] {
+  padding-left: 14px;
+}
+
+.optional-phase-toggle {
+  color: var(--text-muted);
+  gap: 10px;
+}
+
+.task,
+.vacation {
+  border-radius: 10px;
+  padding: 8px 10px;
+  line-height: 20px;
+  border: 1px solid var(--border-soft);
+}
+
+.worker-note,
+.worker-label,
+.note-label {
+  line-height: 20px;
+}
+
+@media (max-width: 1024px) {
+  .calendar-flex { grid-template-columns: 1fr; }
+  .page-shell { padding: 18px; }
+}

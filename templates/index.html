@@ -22,6 +22,7 @@
 {% endmacro %}
 
 {% block content %}
+<div class="page-card">
 <h2>Calendario</h2>
 <div class="controls">
     <form id="filter-form" method="get">
@@ -38,7 +39,7 @@
         <input type="checkbox" id="optional-phase-toggle" {% if import_optional_phases %}checked{% endif %}>
         Importar mecanizados y tratamientos.
     </label>
-    <button id="hours-btn" type="button">Editar jornada laboral</button>
+    <button id="hours-btn" class="pill-button" type="button">Editar jornada laboral</button>
 </div>
 <div class="calendar-flex">
 <div class="schedule-wrapper">
@@ -347,6 +348,7 @@
     </li>
 {% endfor %}
 </ul>
+</div>
 <script>
   const PROJECT_DATA = {{ project_data|tojson }};
   const PHASES = {{ phases|tojson }};

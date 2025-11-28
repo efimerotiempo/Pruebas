@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
+<div class="page-card">
 <h1>Vista Gantt</h1>
 <div class="gantt-controls">
   <button id="expand_all">Desplegar todos</button>
@@ -18,7 +19,7 @@
   </div>
   <div id="gantt_main" class="gantt-main">
     <div id="gantt_header" class="gantt-header"></div>
-    <div id="gantt_body" class="gantt-body"></div>
+  <div id="gantt_body" class="gantt-body"></div>
   </div>
 </div>
 <div id="info-popup" class="info-popup"></div>
@@ -34,6 +35,7 @@
       </div>
     </form>
   </div>
+</div>
 </div>
 <style>
   .gantt-wrapper { display:flex; }

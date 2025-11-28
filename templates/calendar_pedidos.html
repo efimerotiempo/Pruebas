@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% block content %}
+<div class="page-card">
 <form id="quick-card-form" class="quick-card-form">
   <label class="quick-card-field" for="quick-card-date">
     <span>Fecha</span>
@@ -18,8 +19,8 @@
 ] %}
 <div class="pedidos-wrapper">
   <div class="pedidos-calendar-stack">
-  {% for calendar in calendar_definitions %}
-    <h2>{{ calendar.title }}</h2>
+    {% for calendar in calendar_definitions %}
+      <h2>{{ calendar.title }}</h2>
     {% set week_count = calendar.weeks|length %}
     {% if week_count < 1 %}
       {% set week_count = 1 %}
@@ -259,6 +260,7 @@
       </div>
     </form>
   </div>
+</div>
 </div>
 <script>
 document.addEventListener('DOMContentLoaded', () => {

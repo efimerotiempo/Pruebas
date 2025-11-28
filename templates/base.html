@@ -31,8 +31,9 @@
       }
     </script>
 </head>
-<body>
-    <nav>
+<body class="app-body">
+    <div class="page-shell">
+    <nav class="top-nav">
         <a href="{{ url_for('complete') }}">Completo</a> |
         <a href="{{ url_for('calendar_pedidos') }}">Calendario pedidos</a> |
         <a href="{{ url_for('orden_carpetas_view') }}">Orden carpetas</a> |
@@ -44,8 +45,9 @@
         <a href="{{ url_for('resources') }}">Recursos</a> |
         <a href="{{ url_for('add_project') }}">Añadir proyecto</a>
     </nav>
-    <hr/>
+    <hr class="divider"/>
     {% block content %}{% endblock %}
+    </div>
     <script>
       const SCROLL_KEY_GENERIC = 'scroll:' + location.pathname;
       const saved = sessionStorage.getItem(SCROLL_KEY_GENERIC);
