@@ -1,0 +1,12 @@
+/* Estilos básicos para el planificador */
+
+/* Fija el fondo del lateral izquierdo (recursos y notas) para evitar transparencias. */
+.schedule .resource-col {
+  background-color: #fff;
+}
+
+.schedule .resource-col .worker-label,
+.schedule .resource-col .worker-note,
+.schedule .resource-col .worker-note-time {
+  background-color: #fff;
+}
