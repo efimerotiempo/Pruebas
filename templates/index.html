@@ -22,6 +22,7 @@
 {% endmacro %}
 
 {% block content %}
+<div class="page-container calendar-page">
 <h2>Calendario</h2>
 <div class="controls">
     <form id="filter-form" method="get">
@@ -33,12 +34,12 @@
     <button id="sort-due-btn" class="order-toggle" type="button">Fecha tope</button>
     <button id="sort-status-btn" class="order-toggle" type="button">Estado material</button>
 </div>
-<div class="hours-btn-container">
-    <label class="optional-phase-toggle">
+<div class="hours-btn-container action-toolbar">
+    <label class="optional-phase-toggle control-checkbox">
         <input type="checkbox" id="optional-phase-toggle" {% if import_optional_phases %}checked{% endif %}>
         Importar mecanizados y tratamientos.
     </label>
-    <button id="hours-btn" type="button">Editar jornada laboral</button>
+    <button id="hours-btn" class="pill-btn" type="button">Editar jornada laboral</button>
 </div>
 <div class="calendar-flex">
 <div class="schedule-wrapper">

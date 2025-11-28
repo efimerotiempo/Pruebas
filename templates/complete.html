@@ -43,7 +43,7 @@
 {% endmacro %}
 
 {% block content %}
-<div class="complete-container">
+<div class="page-container complete-container">
     <div class="complete-top">
     <div class="complete-notes">
         <h2>Notas</h2>
@@ -66,15 +66,13 @@
             </table>
         </form>
     </div>
-    <div class="hours-btn-container">
-        <label class="optional-phase-toggle">
+    <div class="action-toolbar">
+        <label class="optional-phase-toggle control-checkbox">
             <input type="checkbox" id="optional-phase-toggle" {% if import_optional_phases %}checked{% endif %}>
             Importar mecanizados y tratamientos.
         </label>
-        <button id="hours-btn" type="button">Editar jornada laboral</button>
-        <a href="{{ url_for('exportar_pdf') }}" target="_blank" rel="noopener">
-            <button id="summary-pdf-btn" type="button">Resumen en PDF</button>
-        </a>
+        <button id="hours-btn" class="pill-btn" type="button">Editar jornada laboral</button>
+        <a class="pill-btn" id="summary-pdf-btn" href="{{ url_for('exportar_pdf') }}" target="_blank" rel="noopener">Resumen en PDF</a>
     </div>
     <div class="complete-conflicts">
         <h3>Conflictos</h3>
@@ -354,7 +352,8 @@
             </div>
         </div>
         </div>
-        <div id="info-popup" class="info-popup"></div>
+    </div>
+    <div id="info-popup" class="info-popup"></div>
 <div id="conflict-modal" class="conflict-modal"><div class="conflict-content"><div id="conflict-text"></div><button id="conflict-close">Cerrar</button></div></div>
 <div id="split-modal" class="conflict-modal">
   <div class="conflict-content">
