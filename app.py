@@ -1012,6 +1012,29 @@ ARCHIVED_CALENDAR_FILE = os.path.join(DATA_DIR, 'archived_calendar.json')
 PLANNER_SETTINGS_FILE = os.path.join(DATA_DIR, 'planner_settings.json')
 OPTIONAL_PHASES = {'mecanizar', 'tratamiento'}
 
+SNAPSHOT_FILE = os.path.join(DATA_DIR, 'planning_snapshot.json')
+
+
+def load_planning_snapshots():
+    if not os.path.exists(SNAPSHOT_FILE):
+        return []
+    try:
+        with open(SNAPSHOT_FILE, 'r') as f:
+            data = json.load(f)
+    except (OSError, json.JSONDecodeError):
+        return []
+    if isinstance(data, list):
+        return data
+    if isinstance(data, dict):
+        return [data]
+    return []
+
+
+def save_planning_snapshots(entries):
+    os.makedirs(DATA_DIR, exist_ok=True)
+    with open(SNAPSHOT_FILE, 'w') as f:
+        json.dump(entries, f)
+
 
 def load_planner_settings():
     if not os.path.exists(PLANNER_SETTINGS_FILE):
@@ -1036,6 +1059,263 @@ def save_planner_settings(settings):
 
 def optional_phases_enabled():
     return bool(load_planner_settings().get('import_optional_phases', True))
+
+
+def _project_lookup_map(projects):
+    mapping = {}
+    for p in projects:
+        pid = str(p.get('id') or '').strip()
+        if pid:
+            mapping[pid] = p
+    return mapping
+
+
+def _phase_hours_from_project(project, phase):
+    phases = project.get('phases') or {}
+    value = phases.get(phase)
+    return _phase_total_hours(value)
+
+
+def _build_manual_snapshot_entries(manual_raw, project_map):
+    entries = []
+    for item in manual_raw:
+        if not isinstance(item, dict):
+            continue
+        pid = str(item.get('pid') or '').strip()
+        phase = item.get('phase')
+        part = item.get('part')
+        project = project_map.get(pid, {})
+        entries.append(
+            {
+                'pid': pid,
+                'project': project.get('name') or pid,
+                'client': project.get('client', ''),
+                'phase': phase,
+                'part': part,
+                'hours': _phase_hours_from_project(project, phase),
+                'location': 'Arrastrar aquí',
+            }
+        )
+    return entries
+
+
+def _build_unplanned_entries(schedule):
+    entries = []
+    for day, tasks in schedule.items():
+        for item in tasks:
+            if not isinstance(item, dict):
+                continue
+            entries.append(
+                {
+                    'pid': item.get('pid'),
+                    'project': item.get('project'),
+                    'client': item.get('client'),
+                    'phase': item.get('phase'),
+                    'part': item.get('part'),
+                    'hours': item.get('hours'),
+                    'day': day,
+                    'location': 'Sin planificar',
+                }
+            )
+    return entries
+
+
+def _build_order_positions(projects):
+    today = local_today()
+    compras_raw, column_colors = load_compras_raw()
+    soldar_lookup = build_phase_finish_lookup(projects, SOLDAR_PHASE_PRIORITY)
+    payload = compute_pedidos_entries(
+        compras_raw,
+        column_colors,
+        today,
+        soldar_finish_lookup=soldar_lookup,
+    )
+    positions = []
+    for calendar_key, calendar_data in (
+        ('pedidos', payload['pedidos']),
+        ('subcontrataciones', payload['subcontrataciones']),
+    ):
+        for day, items in calendar_data['scheduled'].items():
+            day_text = day.isoformat() if isinstance(day, date) else str(day)
+            for entry in items:
+                positions.append(
+                    {
+                        'calendar': calendar_key,
+                        'column': entry.get('column', ''),
+                        'lane': entry.get('lane', ''),
+                        'cid': entry.get('cid'),
+                        'project': entry.get('project'),
+                        'cell': day_text,
+                        'simulated': bool(entry.get('simulated')),
+                    }
+                )
+        for entry in calendar_data['unconfirmed']:
+            positions.append(
+                {
+                    'calendar': calendar_key,
+                    'column': entry.get('column', ''),
+                    'lane': entry.get('lane', ''),
+                    'cid': entry.get('cid'),
+                    'project': entry.get('project'),
+                    'cell': 'Sin fecha confirmada',
+                    'simulated': bool(entry.get('simulated')),
+                }
+            )
+    return positions
+
+
+def _flatten_snapshot_rows(snapshot):
+    rows = []
+    for item in snapshot.get('planned_phases', []):
+        rows.append(
+            {
+                'tipo': 'Fase planificada',
+                'proyecto': item.get('project'),
+                'fase': item.get('phase'),
+                'parte': item.get('part'),
+                'fecha_o_celda': item.get('day'),
+                'horas': item.get('hours'),
+                'recurso_o_columna': item.get('worker'),
+                'estado': 'Planificada',
+            }
+        )
+    for item in snapshot.get('manual_bucket', []):
+        rows.append(
+            {
+                'tipo': 'Arrastrar aquí',
+                'proyecto': item.get('project'),
+                'fase': item.get('phase'),
+                'parte': item.get('part'),
+                'fecha_o_celda': item.get('location'),
+                'horas': item.get('hours'),
+                'recurso_o_columna': '',
+                'estado': 'En espera',
+            }
+        )
+    for item in snapshot.get('unplanned', []):
+        rows.append(
+            {
+                'tipo': 'Sin planificar',
+                'proyecto': item.get('project'),
+                'fase': item.get('phase'),
+                'parte': item.get('part'),
+                'fecha_o_celda': item.get('day'),
+                'horas': item.get('hours'),
+                'recurso_o_columna': '',
+                'estado': 'Sin recurso',
+            }
+        )
+    for item in snapshot.get('project_status', []):
+        rows.append(
+            {
+                'tipo': 'Estado proyecto',
+                'proyecto': item.get('project'),
+                'fase': '',
+                'parte': '',
+                'fecha_o_celda': '',
+                'horas': '',
+                'recurso_o_columna': '',
+                'estado': item.get('plan_state'),
+            }
+        )
+    for key, entries in snapshot.get('phase_history', {}).items():
+        pid, phase, part = (list(key.split('|')) + ['', '', ''])[:3]
+        normalized_part = part if part not in (None, '', 'None') else ''
+        for entry in entries:
+            rows.append(
+                {
+                    'tipo': 'Historial fase',
+                    'proyecto': pid,
+                    'fase': phase,
+                    'parte': normalized_part,
+                    'fecha_o_celda': entry.get('timestamp'),
+                    'horas': '',
+                    'recurso_o_columna': f"{entry.get('from_worker', '')} → {entry.get('to_worker', '')}",
+                    'estado': f"{entry.get('from_day', '')} → {entry.get('to_day', '')}",
+                }
+            )
+    for item in snapshot.get('order_positions', []):
+        rows.append(
+            {
+                'tipo': 'Pedido',
+                'proyecto': item.get('project'),
+                'fase': '',
+                'parte': '',
+                'fecha_o_celda': item.get('cell'),
+                'horas': '',
+                'recurso_o_columna': item.get('column'),
+                'estado': item.get('calendar'),
+            }
+        )
+    return rows
+
+
+def build_planning_snapshot():
+    include_optional_phases = optional_phases_enabled()
+    projects = get_visible_projects(include_optional_phases=include_optional_phases)
+    schedule, _, _, _ = build_schedule_with_archived(
+        copy.deepcopy(projects), include_optional_phases=include_optional_phases
+    )
+
+    planned_entries = []
+    unplanned_entries = []
+    unplanned_schedule = schedule.get(UNPLANNED, {})
+    if isinstance(unplanned_schedule, dict):
+        unplanned_entries = _build_unplanned_entries(unplanned_schedule)
+
+    for worker, days in schedule.items():
+        if worker == UNPLANNED:
+            continue
+        for day, tasks in days.items():
+            for item in tasks:
+                if not isinstance(item, dict):
+                    continue
+                planned_entries.append(
+                    {
+                        'pid': item.get('pid'),
+                        'project': item.get('project'),
+                        'client': item.get('client'),
+                        'phase': item.get('phase'),
+                        'part': item.get('part'),
+                        'hours': item.get('hours'),
+                        'day': day,
+                        'worker': worker,
+                    }
+                )
+
+    project_map = _project_lookup_map(projects)
+    manual_entries = _build_manual_snapshot_entries(
+        load_manual_bucket_entries(), project_map
+    )
+
+    snapshot = {
+        'timestamp': local_now().isoformat(),
+        'planned_phases': planned_entries,
+        'manual_bucket': manual_entries,
+        'unplanned': unplanned_entries,
+        'phase_history': load_phase_history(),
+        'project_status': [
+            {
+                'pid': str(p.get('id') or ''),
+                'project': p.get('name'),
+                'client': p.get('client'),
+                'plan_state': p.get('plan_state'),
+                'planned': p.get('planned'),
+            }
+            for p in projects
+        ],
+        'order_positions': _build_order_positions(projects),
+    }
+    snapshot['table_rows'] = _flatten_snapshot_rows(snapshot)
+    return snapshot
+
+
+def create_planning_snapshot():
+    snapshot = build_planning_snapshot()
+    entries = load_planning_snapshots()
+    entries.append(snapshot)
+    save_planning_snapshots(entries)
+    return snapshot
 
 if _load_worker_hours_func and _save_worker_hours_func:
     load_worker_hours = _load_worker_hours_func
@@ -6034,6 +6314,23 @@ def delete_note(nid):
 def observation_list():
     projects = [p for p in get_visible_projects() if p.get('observations')]
     return render_template('observations.html', projects=projects)
+
+
+@app.route('/estado-datos')
+def planning_snapshot_view():
+    snapshots = load_planning_snapshots()
+    snapshot = snapshots[-1] if snapshots else create_planning_snapshot()
+    return render_template('planning_snapshot.html', snapshot=snapshot)
+
+
+@app.route('/estado-datos/snapshot', methods=['GET', 'POST'])
+def planning_snapshot_api():
+    if request.method == 'POST':
+        snapshot = create_planning_snapshot()
+    else:
+        snapshots = load_planning_snapshots()
+        snapshot = snapshots[-1] if snapshots else create_planning_snapshot()
+    return jsonify(snapshot)
 
 
 @app.route('/vacations', methods=['GET', 'POST'])

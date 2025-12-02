@@ -1266,6 +1266,23 @@ tr.collapsed td:not(:first-child) { display: none; }
     color: #666;
 }
 
+.snapshot-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.snapshot-table th,
+.snapshot-table td {
+    border: 1px solid #ccc;
+    padding: 6px;
+    text-align: left;
+}
+
+.snapshot-table th {
+    background: #f5f5f5;
+}
+
 @media print {
     .no-print {
         display: none;
