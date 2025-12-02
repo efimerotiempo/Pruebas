@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Estado y copias de seguridad de planificación</h2>
+<p>Última captura: <span id="snapshot-timestamp">{{ snapshot.timestamp }}</span></p>
+<button id="snapshot-refresh">Actualizar</button>
+<table class="snapshot-table" id="snapshot-table">
+    <thead>
+        <tr>
+            <th>Tipo</th>
+            <th>Proyecto/Pedido</th>
+            <th>Fase</th>
+            <th>Parte</th>
+            <th>Fecha o celda</th>
+            <th>Horas</th>
+            <th>Recurso / Columna</th>
+            <th>Estado</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for row in snapshot.table_rows %}
+        <tr>
+            <td>{{ row.tipo }}</td>
+            <td>{{ row.proyecto }}</td>
+            <td>{{ row.fase }}</td>
+            <td>{{ row.parte }}</td>
+            <td>{{ row.fecha_o_celda }}</td>
+            <td>{{ row.horas }}</td>
+            <td>{{ row.recurso_o_columna }}</td>
+            <td>{{ row.estado }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+<script>
+(function() {
+  const refreshBtn = document.getElementById('snapshot-refresh');
+  const tableBody = document.querySelector('#snapshot-table tbody');
+  const timestampEl = document.getElementById('snapshot-timestamp');
+
+  function renderRows(rows) {
+    tableBody.innerHTML = '';
+    rows.forEach((row) => {
+      const tr = document.createElement('tr');
+      ['tipo','proyecto','fase','parte','fecha_o_celda','horas','recurso_o_columna','estado'].forEach((key) => {
+        const td = document.createElement('td');
+        td.textContent = row[key] === undefined || row[key] === null ? '' : row[key];
+        tr.appendChild(td);
+      });
+      tableBody.appendChild(tr);
+    });
+  }
+
+  function applySnapshot(data) {
+    if (!data) return;
+    timestampEl.textContent = data.timestamp || '';
+    renderRows(data.table_rows || []);
+  }
+
+  function requestSnapshot(forceSave) {
+    const method = forceSave ? 'POST' : 'GET';
+    fetch('{{ url_for('planning_snapshot_api') }}', {method})
+      .then((resp) => resp.json())
+      .then(applySnapshot)
+      .catch((err) => console.error('Error actualizando snapshot', err));
+  }
+
+  refreshBtn.addEventListener('click', () => requestSnapshot(true));
+  setInterval(() => requestSnapshot(true), 60 * 60 * 1000);
+  requestSnapshot(true);
+})();
+</script>
+{% endblock %}
