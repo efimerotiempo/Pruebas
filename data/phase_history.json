@@ -55,27 +55,6 @@
       "to_day": "2025-12-15",
       "from_worker": "Sin planificar",
       "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T09:33:09.816496",
-      "from_day": "2025-12-18",
-      "to_day": "2025-11-26",
-      "from_worker": "Iban",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T09:36:14.099020",
-      "from_day": "2025-11-26",
-      "to_day": "2025-12-16",
-      "from_worker": "Sin planificar",
-      "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T18:59:30.371733",
-      "from_day": "2025-12-16",
-      "to_day": "2025-12-16",
-      "from_worker": "Iban",
-      "to_worker": "Joseba"
     }
   ],
   "caa18c1c-a3bc-4291-b928-06cbfa4e8c65|montar|": [
@@ -143,13 +122,6 @@
       "to_day": "2025-11-04",
       "from_worker": "Iban",
       "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T18:42:44.477810",
-      "from_day": "2025-12-23",
-      "to_day": "2025-12-01",
-      "from_worker": "Sin planificar",
-      "to_worker": "Mikel"
     }
   ],
   "f7dc3602-36ba-4014-802b-58905b07e93b|montar|": [
@@ -454,20 +426,6 @@
       "to_day": "2025-10-27",
       "from_worker": "Albi",
       "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T19:41:40.755792",
-      "from_day": "2026-01-09",
-      "to_day": "2025-12-19",
-      "from_worker": "Sin planificar",
-      "to_worker": "Stoyan"
-    },
-    {
-      "timestamp": "2025-11-26T19:41:44.562233",
-      "from_day": "2025-12-19",
-      "to_day": "2025-12-19",
-      "from_worker": "Stoyan",
-      "to_worker": "Unai"
     }
   ],
   "6f92f620-8e8b-4fed-b28c-6342408f7469|montar|": [
@@ -549,13 +507,6 @@
       "to_day": "2025-11-21",
       "from_worker": "Albi",
       "to_worker": "Albi"
-    },
-    {
-      "timestamp": "2025-11-26T10:50:40.350496",
-      "from_day": "2025-12-12",
-      "to_day": "2025-11-21",
-      "from_worker": "Albi",
-      "to_worker": "Albi"
     }
   ],
   "b71497d6-2463-4424-878e-3917a3939816|recepcionar material|": [
@@ -586,13 +537,6 @@
       "to_day": "2025-11-24",
       "from_worker": "Naparra",
       "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T09:46:53.298694",
-      "from_day": "2026-01-12",
-      "to_day": "2025-11-26",
-      "from_worker": "Naparra",
-      "to_worker": "Sin planificar"
     }
   ],
   "b71497d6-2463-4424-878e-3917a3939816|montar 2�|": [
@@ -630,20 +574,6 @@
       "to_day": "2025-12-10",
       "from_worker": "Sin planificar",
       "to_worker": "Eneko"
-    },
-    {
-      "timestamp": "2025-11-26T10:56:44.297728",
-      "from_day": "2026-01-08",
-      "to_day": "2025-12-09",
-      "from_worker": "Eneko",
-      "to_worker": "Eneko"
-    },
-    {
-      "timestamp": "2025-11-27T08:32:36.385164",
-      "from_day": "2025-12-16",
-      "to_day": "2025-11-25",
-      "from_worker": "Eneko",
-      "to_worker": "Albi"
     }
   ],
   "b71497d6-2463-4424-878e-3917a3939816|soldar|": [
@@ -706,13 +636,6 @@
     {
       "timestamp": "2025-11-25T11:00:12.108676",
       "from_day": "2025-11-24",
-      "to_day": "2025-11-21",
-      "from_worker": "Albi",
-      "to_worker": "Albi"
-    },
-    {
-      "timestamp": "2025-11-26T10:50:49.441148",
-      "from_day": "2025-12-12",
       "to_day": "2025-11-21",
       "from_worker": "Albi",
       "to_worker": "Albi"
@@ -787,13 +710,6 @@
       "from_day": "2025-10-31",
       "to_day": "2025-11-03",
       "from_worker": "Naparra",
-      "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T11:54:14.430695",
-      "from_day": "2025-12-09",
-      "to_day": "2025-11-03",
-      "from_worker": "Sin planificar",
       "to_worker": "Naparra"
     }
   ],
@@ -910,27 +826,6 @@
       "to_day": "2026-01-09",
       "from_worker": "Iban",
       "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T09:32:10.980349",
-      "from_day": "2025-12-10",
-      "to_day": "2025-11-26",
-      "from_worker": "Iban",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T19:39:06.078199",
-      "from_day": "2025-11-26",
-      "to_day": "2026-01-12",
-      "from_worker": "Sin planificar",
-      "to_worker": "Fabio"
-    },
-    {
-      "timestamp": "2025-11-26T19:45:13.501577",
-      "from_day": "2026-01-12",
-      "to_day": "2026-01-09",
-      "from_worker": "Fabio",
-      "to_worker": "Beltxa"
     }
   ],
   "fd05ee6d-9aaf-4097-ac8d-eef4b093cb93|montar|": [
@@ -974,20 +869,6 @@
       "from_day": "2026-01-08",
       "to_day": "2026-01-07",
       "from_worker": "Iban",
-      "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T09:31:41.910444",
-      "from_day": "2025-12-05",
-      "to_day": "2025-11-26",
-      "from_worker": "Iban",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T19:38:47.099050",
-      "from_day": "2025-11-26",
-      "to_day": "2026-01-07",
-      "from_worker": "Sin planificar",
       "to_worker": "Iban"
     }
   ],
@@ -1365,27 +1246,6 @@
       "to_day": "2025-12-03",
       "from_worker": "Sin planificar",
       "to_worker": "Albi"
-    },
-    {
-      "timestamp": "2025-11-26T17:42:01.460483",
-      "from_day": "2025-12-03",
-      "to_day": "2025-12-04",
-      "from_worker": "Albi",
-      "to_worker": "Albi"
-    },
-    {
-      "timestamp": "2025-11-26T19:12:16.102473",
-      "from_day": "2025-12-04",
-      "to_day": "2025-12-05",
-      "from_worker": "Albi",
-      "to_worker": "Albi"
-    },
-    {
-      "timestamp": "2025-11-26T19:12:19.441057",
-      "from_day": "2025-12-05",
-      "to_day": "2025-12-04",
-      "from_worker": "Albi",
-      "to_worker": "Albi"
     }
   ],
   "97159349-cc6d-4db8-8cc8-5aceb17c9772|montar|": [
@@ -1573,27 +1433,6 @@
       "to_day": "2025-11-11",
       "from_worker": "Mikel",
       "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-26T09:34:05.631977",
-      "from_day": "2026-01-21",
-      "to_day": "2025-11-26",
-      "from_worker": "Iban",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T12:00:24.113737",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-10",
-      "from_worker": "Sin planificar",
-      "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-26T12:00:28.720551",
-      "from_day": "2025-11-10",
-      "to_day": "2025-11-11",
-      "from_worker": "Mikel",
-      "to_worker": "Mikel"
     }
   ],
   "c5c53408-addf-4aa5-bf9d-9fb49f4d6dc3|montar|": [
@@ -1759,20 +1598,6 @@
       "to_day": "2025-11-20",
       "from_worker": "Sebastian",
       "to_worker": "Sebastian"
-    },
-    {
-      "timestamp": "2025-11-26T09:47:24.601547",
-      "from_day": "2026-01-22",
-      "to_day": "2025-11-26",
-      "from_worker": "Sebastian",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T12:00:57.179163",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-19",
-      "from_worker": "Sin planificar",
-      "to_worker": "Sebastian"
     }
   ],
   "13a9fab6-3eea-4f4b-89f9-c062d9499922|soldar|": [
@@ -1845,13 +1670,6 @@
       "to_day": "2025-11-06",
       "from_worker": "Fabio",
       "to_worker": "Fabio"
-    },
-    {
-      "timestamp": "2025-11-26T11:56:27.134212",
-      "from_day": "2025-12-12",
-      "to_day": "2025-11-06",
-      "from_worker": "Sin planificar",
-      "to_worker": "Fabio"
     }
   ],
   "45267cce-d739-45ac-9fd0-d3bbe92e657f|montar|": [
@@ -1912,13 +1730,6 @@
       "to_day": "2025-11-19",
       "from_worker": "Sin planificar",
       "to_worker": "Fabio"
-    },
-    {
-      "timestamp": "2025-11-26T09:48:27.521027",
-      "from_day": "2025-10-15",
-      "to_day": "2025-11-19",
-      "from_worker": "Fabio",
-      "to_worker": "Fabio"
     }
   ],
   "4315c58f-4414-4a3d-a373-283f698a72a8|tratamiento|": [
@@ -1944,13 +1755,6 @@
       "to_day": "2025-10-29",
       "from_worker": "Sin planificar",
       "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T09:18:17.008773",
-      "from_day": "2025-11-14",
-      "to_day": "2025-11-26",
-      "from_worker": "Naparra",
-      "to_worker": "Sin planificar"
     }
   ],
   "d4057f46-7a8e-4443-bf83-9c803915e9ba|montar 2�|1": [
@@ -2088,13 +1892,6 @@
       "to_day": "2025-11-05",
       "from_worker": "Naparra",
       "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T18:37:37.049109",
-      "from_day": "2025-11-05",
-      "to_day": "2025-12-01",
-      "from_worker": "Sin planificar",
-      "to_worker": "Mikel"
     }
   ],
   "24a099a3-1d91-417f-b657-c9eaf3bccab3|recepcionar material|": [
@@ -2203,27 +2000,6 @@
       "to_day": "2025-11-20",
       "from_worker": "Sin planificar",
       "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T12:04:43.546692",
-      "from_day": "2025-12-11",
-      "to_day": "2025-10-13",
-      "from_worker": "Sin planificar",
-      "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T12:05:22.169957",
-      "from_day": "2025-10-13",
-      "to_day": "2025-11-26",
-      "from_worker": "Iban",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T12:06:27.492709",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-18",
-      "from_worker": "Sin planificar",
-      "to_worker": "Iban"
     }
   ],
   "28a6b4c3-9ef6-428d-8c66-3cdcd9b6818f|montar|": [
@@ -2304,27 +2080,6 @@
       "from_day": "2025-11-04",
       "to_day": "2025-11-20",
       "from_worker": "Sin planificar",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T09:24:37.006409",
-      "from_day": "2026-02-06",
-      "to_day": "2025-11-26",
-      "from_worker": "Iban",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T12:06:08.399520",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-18",
-      "from_worker": "Sin planificar",
-      "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T12:06:24.241422",
-      "from_day": "2025-11-18",
-      "to_day": "2025-11-26",
-      "from_worker": "Iban",
       "to_worker": "Sin planificar"
     }
   ],
@@ -2854,20 +2609,6 @@
       "to_day": "2025-11-04",
       "from_worker": "Eneko",
       "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T19:44:01.809135",
-      "from_day": "2025-12-18",
-      "to_day": "2026-01-07",
-      "from_worker": "Sin planificar",
-      "to_worker": "Joseba"
-    },
-    {
-      "timestamp": "2025-11-26T19:44:31.974677",
-      "from_day": "2026-01-07",
-      "to_day": "2026-01-07",
-      "from_worker": "Joseba",
-      "to_worker": "Naparra"
     }
   ],
   "6b288763-1f82-4f74-80b4-b7973cb729df|montar|": [
@@ -2968,13 +2709,6 @@
       "to_day": "2025-11-14",
       "from_worker": "Naparra",
       "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T18:13:29.832900",
-      "from_day": "2025-12-19",
-      "to_day": "2025-11-14",
-      "from_worker": "Sin planificar",
-      "to_worker": "Naparra"
     }
   ],
   "73f2f292-223e-4c09-9127-13b86ab3ca2a|soldar|": [
@@ -2984,27 +2718,6 @@
       "to_day": "2025-11-04",
       "from_worker": "Fabio",
       "to_worker": "Unai"
-    },
-    {
-      "timestamp": "2025-11-26T11:04:13.932796",
-      "from_day": "2025-12-10",
-      "to_day": "2025-11-26",
-      "from_worker": "Unai",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T15:18:35.339707",
-      "from_day": "2025-11-26",
-      "to_day": "2025-12-03",
-      "from_worker": "Sin planificar",
-      "to_worker": "Fabio"
-    },
-    {
-      "timestamp": "2025-11-26T15:18:39.601814",
-      "from_day": "2025-12-03",
-      "to_day": "2025-11-26",
-      "from_worker": "Fabio",
-      "to_worker": "Sin planificar"
     }
   ],
   "10f0fc46-d612-4693-bf24-22e8d1c89e6c|montar|": [
@@ -3076,13 +2789,6 @@
       "from_day": "2025-11-20",
       "to_day": "2025-11-24",
       "from_worker": "Sin planificar",
-      "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-26T09:20:35.283502",
-      "from_day": "2026-01-09",
-      "to_day": "2025-11-24",
-      "from_worker": "Mikel",
       "to_worker": "Mikel"
     }
   ],
@@ -3221,20 +2927,6 @@
       "to_day": "2025-11-17",
       "from_worker": "Mikel",
       "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-26T09:21:49.898089",
-      "from_day": "2025-12-19",
-      "to_day": "2025-11-26",
-      "from_worker": "Mikel",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T18:21:53.938982",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-17",
-      "from_worker": "Sin planificar",
-      "to_worker": "Mikel"
     }
   ],
   "050c5dfb-f112-43f1-85b4-7d37611cd7cc|soldar|": [
@@ -3304,34 +2996,6 @@
     {
       "timestamp": "2025-11-20T08:56:30.393304",
       "from_day": "2025-11-25",
-      "to_day": "2025-11-19",
-      "from_worker": "Stoyan",
-      "to_worker": "Stoyan"
-    },
-    {
-      "timestamp": "2025-11-26T09:54:22.068046",
-      "from_day": "2025-12-01",
-      "to_day": "2025-11-20",
-      "from_worker": "Stoyan",
-      "to_worker": "Stoyan"
-    },
-    {
-      "timestamp": "2025-11-26T09:54:27.090207",
-      "from_day": "2025-11-20",
-      "to_day": "2025-11-21",
-      "from_worker": "Stoyan",
-      "to_worker": "Stoyan"
-    },
-    {
-      "timestamp": "2025-11-26T09:55:10.826677",
-      "from_day": "2025-11-21",
-      "to_day": "2025-11-20",
-      "from_worker": "Stoyan",
-      "to_worker": "Stoyan"
-    },
-    {
-      "timestamp": "2025-11-26T17:49:52.178799",
-      "from_day": "2025-11-20",
       "to_day": "2025-11-19",
       "from_worker": "Stoyan",
       "to_worker": "Stoyan"
@@ -3437,48 +3101,6 @@
       "to_day": "2025-11-20",
       "from_worker": "Sin planificar",
       "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-26T09:19:49.188885",
-      "from_day": "2026-01-09",
-      "to_day": "2025-11-18",
-      "from_worker": "Mikel",
-      "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-26T09:19:52.534600",
-      "from_day": "2025-11-18",
-      "to_day": "2025-11-21",
-      "from_worker": "Mikel",
-      "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-26T09:19:57.679090",
-      "from_day": "2025-11-21",
-      "to_day": "2025-11-19",
-      "from_worker": "Mikel",
-      "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-26T09:20:01.344948",
-      "from_day": "2025-11-19",
-      "to_day": "2025-11-20",
-      "from_worker": "Mikel",
-      "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-26T18:22:32.847560",
-      "from_day": "2025-11-20",
-      "to_day": "2025-11-21",
-      "from_worker": "Mikel",
-      "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-26T18:22:43.818971",
-      "from_day": "2025-11-21",
-      "to_day": "2025-11-20",
-      "from_worker": "Mikel",
-      "to_worker": "Mikel"
     }
   ],
   "b9f5ff91-606c-4db2-aa68-9bed90d31266|soldar|": [
@@ -3522,20 +3144,6 @@
       "from_day": "2025-12-01",
       "to_day": "2025-11-27",
       "from_worker": "Fabio",
-      "to_worker": "Stoyan"
-    },
-    {
-      "timestamp": "2025-11-26T09:55:41.981439",
-      "from_day": "2025-12-05",
-      "to_day": "2025-11-27",
-      "from_worker": "Sin planificar",
-      "to_worker": "Stoyan"
-    },
-    {
-      "timestamp": "2025-11-26T17:52:39.364429",
-      "from_day": "2025-11-27",
-      "to_day": "2025-11-26",
-      "from_worker": "Stoyan",
       "to_worker": "Stoyan"
     }
   ],
@@ -3597,20 +3205,6 @@
       "to_day": "2025-12-02",
       "from_worker": "Stoyan",
       "to_worker": "Stoyan"
-    },
-    {
-      "timestamp": "2025-11-26T09:56:20.875111",
-      "from_day": "2025-12-17",
-      "to_day": "2025-12-02",
-      "from_worker": "Sin planificar",
-      "to_worker": "Stoyan"
-    },
-    {
-      "timestamp": "2025-11-26T17:52:52.527000",
-      "from_day": "2025-12-02",
-      "to_day": "2025-12-01",
-      "from_worker": "Stoyan",
-      "to_worker": "Stoyan"
     }
   ],
   "10f0fc46-d612-4693-bf24-22e8d1c89e6c|tratamiento|": [
@@ -3664,20 +3258,6 @@
       "to_day": "2025-11-19",
       "from_worker": "Sin planificar",
       "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-26T09:31:12.704200",
-      "from_day": "2025-12-15",
-      "to_day": "2025-11-26",
-      "from_worker": "Joseba",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T18:22:16.054211",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-19",
-      "from_worker": "Sin planificar",
-      "to_worker": "Mikel"
     }
   ],
   "d4bb4f3d-6d55-434a-aaf4-b1913eb3d590|soldar|": [
@@ -3706,34 +3286,6 @@
       "timestamp": "2025-11-25T11:24:03.850956",
       "from_day": "2025-12-02",
       "to_day": "2025-11-25",
-      "from_worker": "Stoyan",
-      "to_worker": "Stoyan"
-    },
-    {
-      "timestamp": "2025-11-26T09:54:55.520053",
-      "from_day": "2025-12-16",
-      "to_day": "2025-11-26",
-      "from_worker": "Stoyan",
-      "to_worker": "Stoyan"
-    },
-    {
-      "timestamp": "2025-11-26T09:55:13.837505",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-25",
-      "from_worker": "Stoyan",
-      "to_worker": "Stoyan"
-    },
-    {
-      "timestamp": "2025-11-26T17:50:42.430582",
-      "from_day": "2025-11-25",
-      "to_day": "2025-11-21",
-      "from_worker": "Stoyan",
-      "to_worker": "Stoyan"
-    },
-    {
-      "timestamp": "2025-11-26T17:52:17.767189",
-      "from_day": "2025-11-21",
-      "to_day": "2025-11-24",
       "from_worker": "Stoyan",
       "to_worker": "Stoyan"
     }
@@ -4112,34 +3664,6 @@
       "to_day": "2025-11-20",
       "from_worker": "Albi",
       "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T09:32:57.429455",
-      "from_day": "2025-12-15",
-      "to_day": "2025-11-26",
-      "from_worker": "Iban",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T17:27:44.371375",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-28",
-      "from_worker": "Sin planificar",
-      "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-28T07:58:50.629117",
-      "from_day": "2025-11-28",
-      "to_day": "2025-11-28",
-      "from_worker": "Mikel",
-      "to_worker": "Sebastian"
-    },
-    {
-      "timestamp": "2025-11-28T07:58:53.995229",
-      "from_day": "2025-11-28",
-      "to_day": "2025-11-27",
-      "from_worker": "Sebastian",
-      "to_worker": "Sebastian"
     }
   ],
   "73f2f292-223e-4c09-9127-13b86ab3ca2a|montar 2�|": [
@@ -4351,20 +3875,6 @@
       "to_day": "2025-11-20",
       "from_worker": "Sin planificar",
       "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T18:29:50.960732",
-      "from_day": "2025-11-06",
-      "to_day": "2025-11-26",
-      "from_worker": "Sin planificar",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T18:30:08.289734",
-      "from_day": "2025-11-26",
-      "to_day": "2025-12-01",
-      "from_worker": "Sin planificar",
-      "to_worker": "Eneko"
     }
   ],
   "aa749d39-11a5-4522-bd8f-1bb537670443|preparar material|": [
@@ -4589,13 +4099,6 @@
       "to_day": "2025-11-13",
       "from_worker": "Fabio",
       "to_worker": "Fabio"
-    },
-    {
-      "timestamp": "2025-11-26T09:31:16.620961",
-      "from_day": "2025-12-17",
-      "to_day": "2025-11-26",
-      "from_worker": "Joseba",
-      "to_worker": "Sin planificar"
     }
   ],
   "6b288763-1f82-4f74-80b4-b7973cb729df|montar 2�|": [
@@ -4667,20 +4170,6 @@
       "from_day": "2025-11-25",
       "to_day": "2025-11-25",
       "from_worker": "Sin planificar",
-      "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T09:41:42.722768",
-      "from_day": "2026-01-08",
-      "to_day": "2025-11-26",
-      "from_worker": "Naparra",
-      "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T09:41:48.191476",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-25",
-      "from_worker": "Naparra",
       "to_worker": "Naparra"
     }
   ],
@@ -4761,34 +4250,6 @@
       "to_day": "2025-11-19",
       "from_worker": "Sin planificar",
       "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T09:42:30.261584",
-      "from_day": "2026-01-07",
-      "to_day": "2025-11-26",
-      "from_worker": "Naparra",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T18:14:36.223719",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-18",
-      "from_worker": "Sin planificar",
-      "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T18:16:01.140890",
-      "from_day": "2025-11-18",
-      "to_day": "2025-11-26",
-      "from_worker": "Naparra",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T18:16:38.676651",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-19",
-      "from_worker": "Sin planificar",
-      "to_worker": "Naparra"
     }
   ],
   "6b288763-1f82-4f74-80b4-b7973cb729df|soldar 2�|": [
@@ -4854,13 +4315,6 @@
       "to_day": "2025-11-27",
       "from_worker": "Danilzo",
       "to_worker": "Fabio"
-    },
-    {
-      "timestamp": "2025-11-26T09:49:13.351765",
-      "from_day": "2026-01-09",
-      "to_day": "2025-11-26",
-      "from_worker": "Sin planificar",
-      "to_worker": "Fabio"
     }
   ],
   "45267cce-d739-45ac-9fd0-d3bbe92e657f|soldar|": [
@@ -4912,13 +4366,6 @@
       "to_day": "2025-11-17",
       "from_worker": "Beltxa",
       "to_worker": "Beltxa"
-    },
-    {
-      "timestamp": "2025-11-26T09:18:41.732239",
-      "from_day": "2025-11-17",
-      "to_day": "2025-11-18",
-      "from_worker": "Beltxa",
-      "to_worker": "Beltxa"
     }
   ],
   "e386f0fd-8a35-40c2-a8e7-3c57b5f538d5|soldar|": [
@@ -4942,27 +4389,6 @@
       "to_day": "2025-11-17",
       "from_worker": "Stoyan",
       "to_worker": "Beltxa"
-    },
-    {
-      "timestamp": "2025-11-26T09:53:36.929560",
-      "from_day": "2025-12-18",
-      "to_day": "2025-11-26",
-      "from_worker": "Beltxa",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T12:10:17.713118",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-14",
-      "from_worker": "Sin planificar",
-      "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-26T12:10:22.190694",
-      "from_day": "2025-11-14",
-      "to_day": "2025-11-13",
-      "from_worker": "Mikel",
-      "to_worker": "Mikel"
     }
   ],
   "03f26328-bad8-42c7-a553-9d8c29a460f4|montar|": [
@@ -5035,13 +4461,6 @@
       "to_day": "2025-11-17",
       "from_worker": "Naparra",
       "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T18:13:33.606899",
-      "from_day": "2025-12-19",
-      "to_day": "2025-11-17",
-      "from_worker": "Sin planificar",
-      "to_worker": "Naparra"
     }
   ],
   "03f26328-bad8-42c7-a553-9d8c29a460f4|soldar|": [
@@ -5072,55 +4491,6 @@
       "to_day": "2025-11-24",
       "from_worker": "Naparra",
       "to_worker": "NUEVO SOLDADOR"
-    },
-    {
-      "timestamp": "2025-11-26T11:10:08.964092",
-      "from_day": "2025-12-22",
-      "to_day": "2025-11-25",
-      "from_worker": "Sin planificar",
-      "to_worker": "Danilzo"
-    },
-    {
-      "timestamp": "2025-11-26T11:10:12.228826",
-      "from_day": "2025-11-25",
-      "to_day": "2025-11-26",
-      "from_worker": "Danilzo",
-      "to_worker": "Danilzo"
-    },
-    {
-      "timestamp": "2025-11-26T18:01:49.311884",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-24",
-      "from_worker": "Danilzo",
-      "to_worker": "Sebastian"
-    },
-    {
-      "timestamp": "2025-11-26T18:14:57.785244",
-      "from_day": "2025-11-24",
-      "to_day": "2025-11-19",
-      "from_worker": "Sebastian",
-      "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T18:16:11.876215",
-      "from_day": "2025-11-19",
-      "to_day": "2025-11-26",
-      "from_worker": "Naparra",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T18:17:03.698023",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-20",
-      "from_worker": "Sin planificar",
-      "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T18:17:17.011417",
-      "from_day": "2025-11-20",
-      "to_day": "2025-11-24",
-      "from_worker": "Naparra",
-      "to_worker": "Sebastian"
     }
   ],
   "03f26328-bad8-42c7-a553-9d8c29a460f4|montar 2�|": [
@@ -5158,27 +4528,6 @@
       "to_day": "2025-11-26",
       "from_worker": "Sin planificar",
       "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T09:45:26.300394",
-      "from_day": "2027-01-01",
-      "to_day": "2025-11-26",
-      "from_worker": "Sin planificar",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T09:45:32.271275",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-26",
-      "from_worker": "Sin planificar",
-      "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T17:38:19.506193",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-27",
-      "from_worker": "Naparra",
-      "to_worker": "Naparra"
     }
   ],
   "03f26328-bad8-42c7-a553-9d8c29a460f4|soldar 2�|": [
@@ -5209,27 +4558,6 @@
       "to_day": "2025-11-26",
       "from_worker": "NUEVO SOLDADOR",
       "to_worker": "NUEVO SOLDADOR"
-    },
-    {
-      "timestamp": "2025-11-26T11:09:00.849447",
-      "from_day": "2025-11-27",
-      "to_day": "2025-11-26",
-      "from_worker": "Sin planificar",
-      "to_worker": "Danilzo"
-    },
-    {
-      "timestamp": "2025-11-26T11:09:15.003231",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-27",
-      "from_worker": "Danilzo",
-      "to_worker": "Danilzo"
-    },
-    {
-      "timestamp": "2025-11-26T17:45:44.557484",
-      "from_day": "2025-11-27",
-      "to_day": "2025-12-01",
-      "from_worker": "Danilzo",
-      "to_worker": "Fabio"
     }
   ],
   "73f2f292-223e-4c09-9127-13b86ab3ca2a|tratamiento|": [
@@ -5368,13 +4696,6 @@
       "from_day": "2025-11-25",
       "to_day": "2025-11-20",
       "from_worker": "Sin planificar",
-      "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T09:23:24.952546",
-      "from_day": "2026-01-30",
-      "to_day": "2025-11-20",
-      "from_worker": "Iban",
       "to_worker": "Iban"
     }
   ],
@@ -5543,27 +4864,6 @@
       "to_day": "2025-11-24",
       "from_worker": "Naparra",
       "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T09:40:02.116124",
-      "from_day": "2025-12-03",
-      "to_day": "2025-11-25",
-      "from_worker": "Naparra",
-      "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T09:40:06.491798",
-      "from_day": "2025-11-25",
-      "to_day": "2025-11-24",
-      "from_worker": "Naparra",
-      "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T18:18:26.720716",
-      "from_day": "2025-11-24",
-      "to_day": "2025-11-20",
-      "from_worker": "Naparra",
-      "to_worker": "Naparra"
     }
   ],
   "65d13c0a-da61-4ece-9392-0ffbfe467ed4|montar|": [
@@ -5585,41 +4885,6 @@
       "timestamp": "2025-11-25T10:35:39.928137",
       "from_day": "2025-11-24",
       "to_day": "2025-11-18",
-      "from_worker": "Iban",
-      "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T09:24:20.048822",
-      "from_day": "2026-01-30",
-      "to_day": "2025-11-26",
-      "from_worker": "Iban",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T09:25:22.859011",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-26",
-      "from_worker": "Sin planificar",
-      "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T09:25:33.466993",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-26",
-      "from_worker": "Iban",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T09:26:06.065510",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-26",
-      "from_worker": "Sin planificar",
-      "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T09:26:36.041853",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-25",
       "from_worker": "Iban",
       "to_worker": "Iban"
     }
@@ -5659,62 +4924,6 @@
       "to_day": "2025-11-25",
       "from_worker": "Iban",
       "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T09:24:29.936774",
-      "from_day": "2026-02-04",
-      "to_day": "2025-11-26",
-      "from_worker": "Iban",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T09:26:19.343683",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-26",
-      "from_worker": "Sin planificar",
-      "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T09:26:43.389895",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-25",
-      "from_worker": "Iban",
-      "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T18:05:48.504997",
-      "from_day": "2025-11-25",
-      "to_day": "2025-11-27",
-      "from_worker": "Iban",
-      "to_worker": "Unai"
-    },
-    {
-      "timestamp": "2025-11-26T18:05:53.051081",
-      "from_day": "2025-11-27",
-      "to_day": "2025-11-26",
-      "from_worker": "Unai",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T18:06:07.661714",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-27",
-      "from_worker": "Sin planificar",
-      "to_worker": "Danilzo"
-    },
-    {
-      "timestamp": "2025-11-26T18:06:28.581330",
-      "from_day": "2025-11-27",
-      "to_day": "2025-11-26",
-      "from_worker": "Danilzo",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T18:10:31.091447",
-      "from_day": "2025-11-26",
-      "to_day": "2025-12-03",
-      "from_worker": "Sin planificar",
-      "to_worker": "Danilzo"
     }
   ],
   "70b3e8ea-3b4c-408d-bb2f-944c9acb7e71|montar|": [
@@ -5780,13 +4989,6 @@
       "to_day": "2025-11-20",
       "from_worker": "Iban",
       "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T19:30:45.469464",
-      "from_day": "2025-11-20",
-      "to_day": "2025-12-17",
-      "from_worker": "Sin planificar",
-      "to_worker": "Mikel"
     }
   ],
   "70b3e8ea-3b4c-408d-bb2f-944c9acb7e71|preparar material|": [
@@ -5795,20 +4997,6 @@
       "from_day": "2025-11-04",
       "to_day": "2025-11-18",
       "from_worker": "Sin planificar",
-      "to_worker": "Albi"
-    },
-    {
-      "timestamp": "2025-11-26T10:53:07.350499",
-      "from_day": "2025-11-20",
-      "to_day": "2025-12-12",
-      "from_worker": "Albi",
-      "to_worker": "Albi"
-    },
-    {
-      "timestamp": "2025-11-26T19:53:44.988923",
-      "from_day": "2025-12-12",
-      "to_day": "2025-12-11",
-      "from_worker": "Albi",
       "to_worker": "Albi"
     }
   ],
@@ -5833,34 +5021,6 @@
       "to_day": "2025-11-20",
       "from_worker": "Iban",
       "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T09:41:01.941538",
-      "from_day": "2025-12-23",
-      "to_day": "2025-11-25",
-      "from_worker": "Sin planificar",
-      "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T18:19:00.461430",
-      "from_day": "2025-11-25",
-      "to_day": "2025-11-24",
-      "from_worker": "Naparra",
-      "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T19:25:26.291842",
-      "from_day": "2025-11-24",
-      "to_day": "2025-11-26",
-      "from_worker": "Naparra",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T19:26:00.352788",
-      "from_day": "2025-11-26",
-      "to_day": "2025-12-12",
-      "from_worker": "Sin planificar",
-      "to_worker": "Mikel"
     }
   ],
   "c61246f0-14e9-40b9-9a36-9ac47c462a93|soldar|": [
@@ -5877,20 +5037,6 @@
       "to_day": "2025-11-20",
       "from_worker": "Sebastian",
       "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T19:26:25.018378",
-      "from_day": "2025-12-24",
-      "to_day": "2025-12-15",
-      "from_worker": "Sin planificar",
-      "to_worker": "Albi"
-    },
-    {
-      "timestamp": "2025-11-26T19:26:29.958489",
-      "from_day": "2025-12-15",
-      "to_day": "2025-12-15",
-      "from_worker": "Albi",
-      "to_worker": "Danilzo"
     }
   ],
   "3221b6b2-0a82-448c-bdb3-d3d54ff42021|montar|": [
@@ -5914,13 +5060,6 @@
       "to_day": "2025-11-20",
       "from_worker": "Iban",
       "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T19:29:25.461238",
-      "from_day": "2025-12-19",
-      "to_day": "2025-12-12",
-      "from_worker": "Sin planificar",
-      "to_worker": "Mikel"
     }
   ],
   "3221b6b2-0a82-448c-bdb3-d3d54ff42021|soldar|": [
@@ -5937,20 +5076,6 @@
       "to_day": "2025-11-20",
       "from_worker": "Sebastian",
       "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T19:30:02.453629",
-      "from_day": "2025-12-24",
-      "to_day": "2025-12-17",
-      "from_worker": "Sin planificar",
-      "to_worker": "Stoyan"
-    },
-    {
-      "timestamp": "2025-11-26T19:30:16.929508",
-      "from_day": "2025-12-17",
-      "to_day": "2025-12-16",
-      "from_worker": "Stoyan",
-      "to_worker": "Fabio"
     }
   ],
   "0f5a3d53-85be-4dec-b157-79e88d763617|soldar|": [
@@ -5966,13 +5091,6 @@
       "from_day": "2025-11-19",
       "to_day": "2025-11-19",
       "from_worker": "Albi",
-      "to_worker": "Eneko"
-    },
-    {
-      "timestamp": "2025-11-26T10:55:04.770970",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-19",
-      "from_worker": "Eneko",
       "to_worker": "Eneko"
     }
   ],
@@ -5990,27 +5108,6 @@
       "to_day": "2025-11-20",
       "from_worker": "Eneko",
       "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T19:30:57.512041",
-      "from_day": "2025-11-28",
-      "to_day": "2025-11-26",
-      "from_worker": "Sin planificar",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T19:31:08.898233",
-      "from_day": "2025-11-26",
-      "to_day": "2026-01-12",
-      "from_worker": "Sin planificar",
-      "to_worker": "Albi"
-    },
-    {
-      "timestamp": "2025-11-26T19:31:12.785759",
-      "from_day": "2026-01-12",
-      "to_day": "2026-01-12",
-      "from_worker": "Albi",
-      "to_worker": "Eneko"
     }
   ],
   "0f5a3d53-85be-4dec-b157-79e88d763617|soldar|0": [
@@ -6043,13 +5140,6 @@
       "to_day": "2025-11-05",
       "from_worker": "Naparra",
       "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T18:41:26.874253",
-      "from_day": "2025-11-06",
-      "to_day": "2025-12-02",
-      "from_worker": "Sin planificar",
-      "to_worker": "Beltxa"
     }
   ],
   "d7f3e94b-7632-409f-a2d5-78a2bbf838a4|montar|": [
@@ -6066,13 +5156,6 @@
       "to_day": "2025-11-05",
       "from_worker": "Unai",
       "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T16:57:34.999787",
-      "from_day": "2025-12-24",
-      "to_day": "2025-11-26",
-      "from_worker": "Sin planificar",
-      "to_worker": "Iban"
     }
   ],
   "12ff4760-0cc5-42b3-b9cf-57b0e013b88d|preparar material|": [
@@ -6292,20 +5375,6 @@
       "to_day": "2025-11-17",
       "from_worker": "Naparra",
       "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T09:18:11.599044",
-      "from_day": "2025-11-20",
-      "to_day": "2025-11-26",
-      "from_worker": "Naparra",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T18:13:56.698586",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-17",
-      "from_worker": "Sin planificar",
-      "to_worker": "Naparra"
     }
   ],
   "68879450-a759-4020-8928-8459e003b766|montar|": [
@@ -6409,13 +5478,6 @@
       "from_day": "2025-11-25",
       "to_day": "2025-11-25",
       "from_worker": "Sin planificar",
-      "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T09:23:39.119682",
-      "from_day": "2025-11-25",
-      "to_day": "2025-11-24",
-      "from_worker": "Iban",
       "to_worker": "Iban"
     }
   ],
@@ -6698,20 +5760,6 @@
       "to_day": "2025-11-13",
       "from_worker": "Unai",
       "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-26T09:21:42.634322",
-      "from_day": "2025-12-17",
-      "to_day": "2025-11-26",
-      "from_worker": "Mikel",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T12:09:47.393705",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-13",
-      "from_worker": "Sin planificar",
-      "to_worker": "Mikel"
     }
   ],
   "4315c58f-4414-4a3d-a373-283f698a72a8|soldar|": [
@@ -6758,13 +5806,6 @@
       "to_day": "2025-11-20",
       "from_worker": "NUEVO SOLDADOR",
       "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T18:03:25.184372",
-      "from_day": "2025-11-27",
-      "to_day": "2025-11-25",
-      "from_worker": "Sin planificar",
-      "to_worker": "Danilzo"
     }
   ],
   "b5a86b42-434e-47ab-8b2d-f46a2622ff4c|montar 2�|": [
@@ -6809,27 +5850,6 @@
       "to_day": "2025-11-20",
       "from_worker": "Sebastian",
       "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T16:48:08.080250",
-      "from_day": "2025-12-01",
-      "to_day": "2025-12-17",
-      "from_worker": "Sin planificar",
-      "to_worker": "Stoyan"
-    },
-    {
-      "timestamp": "2025-11-26T16:49:19.760178",
-      "from_day": "2025-12-17",
-      "to_day": "2025-11-26",
-      "from_worker": "Stoyan",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T19:43:47.573902",
-      "from_day": "2025-11-26",
-      "to_day": "2026-01-07",
-      "from_worker": "Sin planificar",
-      "to_worker": "Naparra"
     }
   ],
   "b5a86b42-434e-47ab-8b2d-f46a2622ff4c|soldar 2�|": [
@@ -6846,20 +5866,6 @@
       "to_day": "2025-11-20",
       "from_worker": "Stoyan",
       "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T19:44:23.685997",
-      "from_day": "2025-12-02",
-      "to_day": "2026-01-07",
-      "from_worker": "Sin planificar",
-      "to_worker": "Fabio"
-    },
-    {
-      "timestamp": "2025-11-26T19:44:47.896998",
-      "from_day": "2026-01-07",
-      "to_day": "2026-01-08",
-      "from_worker": "Fabio",
-      "to_worker": "Fabio"
     }
   ],
   "e386f0fd-8a35-40c2-a8e7-3c57b5f538d5|tratamiento|": [
@@ -6885,20 +5891,6 @@
       "to_day": "2025-11-17",
       "from_worker": "Unai",
       "to_worker": "Albi"
-    },
-    {
-      "timestamp": "2025-11-26T09:17:36.326867",
-      "from_day": "2025-11-14",
-      "to_day": "2025-11-26",
-      "from_worker": "Albi",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T10:52:20.432219",
-      "from_day": "2025-11-26",
-      "to_day": "2025-12-02",
-      "from_worker": "Sin planificar",
-      "to_worker": "Albi"
     }
   ],
   "799119d7-0053-4cc8-8e42-f949a17e300b|montar|": [
@@ -6917,13 +5909,6 @@
       "to_day": "2025-12-01",
       "from_worker": "Sin planificar",
       "to_worker": "Sebastian"
-    },
-    {
-      "timestamp": "2025-11-26T18:24:39.709535",
-      "from_day": "2025-12-01",
-      "to_day": "2025-12-01",
-      "from_worker": "Sebastian",
-      "to_worker": "Naparra"
     }
   ],
   "5b5ede12-c990-4e91-aa5a-5ea45dcf9cfa|montar|": [
@@ -6974,20 +5959,6 @@
       "from_day": "2025-11-19",
       "to_day": "2025-11-18",
       "from_worker": "Naparra",
-      "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T09:33:05.900756",
-      "from_day": "2025-12-17",
-      "to_day": "2025-11-26",
-      "from_worker": "Iban",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T18:16:23.159062",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-18",
-      "from_worker": "Sin planificar",
       "to_worker": "Naparra"
     }
   ],
@@ -7040,20 +6011,6 @@
       "to_day": "2025-11-13",
       "from_worker": "Stoyan",
       "to_worker": "Stoyan"
-    },
-    {
-      "timestamp": "2025-11-26T09:55:26.040362",
-      "from_day": "2025-12-16",
-      "to_day": "2025-11-26",
-      "from_worker": "Stoyan",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T11:58:29.877145",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-13",
-      "from_worker": "Sin planificar",
-      "to_worker": "Stoyan"
     }
   ],
   "1e020061-10c8-4cb6-9f80-5f7dd5de2cf7|soldar|": [
@@ -7079,41 +6036,6 @@
       "to_day": "2025-12-08",
       "from_worker": "Naparra",
       "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T09:33:49.028738",
-      "from_day": "2026-01-14",
-      "to_day": "2025-11-26",
-      "from_worker": "Iban",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T09:34:31.372909",
-      "from_day": "2025-11-26",
-      "to_day": "2025-12-09",
-      "from_worker": "Sin planificar",
-      "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T18:44:02.681414",
-      "from_day": "2025-12-09",
-      "to_day": "2025-12-09",
-      "from_worker": "Iban",
-      "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-26T18:50:37.206015",
-      "from_day": "2025-12-09",
-      "to_day": "2025-12-04",
-      "from_worker": "Mikel",
-      "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-26T19:54:45.352674",
-      "from_day": "2025-12-04",
-      "to_day": "2025-12-05",
-      "from_worker": "Mikel",
-      "to_worker": "Mikel"
     }
   ],
   "c6bae4ff-90f0-4792-9b85-e863d0014dd1|montar|": [
@@ -7130,48 +6052,6 @@
       "to_day": "2025-12-09",
       "from_worker": "Fabio",
       "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T09:32:45.422948",
-      "from_day": "2026-01-16",
-      "to_day": "2025-12-09",
-      "from_worker": "Iban",
-      "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T09:34:21.290069",
-      "from_day": "2025-12-09",
-      "to_day": "2025-12-10",
-      "from_worker": "Iban",
-      "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T09:35:00.404880",
-      "from_day": "2025-12-10",
-      "to_day": "2025-12-12",
-      "from_worker": "Iban",
-      "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T09:35:03.109731",
-      "from_day": "2025-12-12",
-      "to_day": "2025-12-10",
-      "from_worker": "Iban",
-      "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T18:44:09.371205",
-      "from_day": "2025-12-10",
-      "to_day": "2025-12-10",
-      "from_worker": "Iban",
-      "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-26T18:50:44.192403",
-      "from_day": "2025-12-10",
-      "to_day": "2025-12-09",
-      "from_worker": "Mikel",
-      "to_worker": "Mikel"
     }
   ],
   "d92b6336-ba36-4553-8057-9f8429236a43|montar|": [
@@ -7188,34 +6068,6 @@
       "to_day": "2025-12-10",
       "from_worker": "Beltxa",
       "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T09:33:52.350591",
-      "from_day": "2026-01-19",
-      "to_day": "2025-11-26",
-      "from_worker": "Iban",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T09:35:10.416338",
-      "from_day": "2025-11-26",
-      "to_day": "2025-12-12",
-      "from_worker": "Sin planificar",
-      "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T18:44:22.787092",
-      "from_day": "2025-12-12",
-      "to_day": "2025-12-11",
-      "from_worker": "Iban",
-      "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-26T18:50:56.319496",
-      "from_day": "2025-12-11",
-      "to_day": "2025-12-10",
-      "from_worker": "Mikel",
-      "to_worker": "Mikel"
     }
   ],
   "2dca092c-ae48-4eb4-98a3-4ac7c08405da|montar|": [
@@ -7232,34 +6084,6 @@
       "to_day": "2025-12-12",
       "from_worker": "Sebastian",
       "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T09:33:58.966894",
-      "from_day": "2026-01-20",
-      "to_day": "2025-11-26",
-      "from_worker": "Iban",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T09:35:25.938184",
-      "from_day": "2025-11-26",
-      "to_day": "2025-12-15",
-      "from_worker": "Sin planificar",
-      "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T18:44:29.312892",
-      "from_day": "2025-12-15",
-      "to_day": "2025-12-12",
-      "from_worker": "Iban",
-      "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-26T18:51:08.095305",
-      "from_day": "2025-12-12",
-      "to_day": "2025-12-11",
-      "from_worker": "Mikel",
-      "to_worker": "Mikel"
     }
   ],
   "cef3625a-e407-4738-8c3c-240faa3aa654|soldar|": [
@@ -7276,48 +6100,6 @@
       "to_day": "2025-12-10",
       "from_worker": "Fabio",
       "to_worker": "Fabio"
-    },
-    {
-      "timestamp": "2025-11-26T09:47:20.882656",
-      "from_day": "2026-01-16",
-      "to_day": "2025-11-26",
-      "from_worker": "Fabio",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T09:50:47.677925",
-      "from_day": "2025-11-26",
-      "to_day": "2025-12-10",
-      "from_worker": "Sin planificar",
-      "to_worker": "Fabio"
-    },
-    {
-      "timestamp": "2025-11-26T18:39:01.533989",
-      "from_day": "2025-12-10",
-      "to_day": "2025-12-11",
-      "from_worker": "Fabio",
-      "to_worker": "Stoyan"
-    },
-    {
-      "timestamp": "2025-11-26T19:05:46.846276",
-      "from_day": "2025-12-11",
-      "to_day": "2025-12-09",
-      "from_worker": "Stoyan",
-      "to_worker": "Stoyan"
-    },
-    {
-      "timestamp": "2025-11-26T19:55:48.443885",
-      "from_day": "2025-12-09",
-      "to_day": "2025-12-10",
-      "from_worker": "Stoyan",
-      "to_worker": "Stoyan"
-    },
-    {
-      "timestamp": "2025-11-26T19:56:12.227950",
-      "from_day": "2025-12-10",
-      "to_day": "2025-12-09",
-      "from_worker": "Stoyan",
-      "to_worker": "Stoyan"
     }
   ],
   "c6bae4ff-90f0-4792-9b85-e863d0014dd1|soldar|": [
@@ -7334,48 +6116,6 @@
       "to_day": "2025-12-12",
       "from_worker": "Fabio",
       "to_worker": "Fabio"
-    },
-    {
-      "timestamp": "2025-11-26T09:47:17.837547",
-      "from_day": "2026-01-20",
-      "to_day": "2025-11-26",
-      "from_worker": "Fabio",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T09:51:17.376342",
-      "from_day": "2025-11-26",
-      "to_day": "2025-12-12",
-      "from_worker": "Sin planificar",
-      "to_worker": "Fabio"
-    },
-    {
-      "timestamp": "2025-11-26T18:39:09.464928",
-      "from_day": "2025-12-12",
-      "to_day": "2025-12-12",
-      "from_worker": "Fabio",
-      "to_worker": "Stoyan"
-    },
-    {
-      "timestamp": "2025-11-26T19:05:54.958782",
-      "from_day": "2025-12-12",
-      "to_day": "2025-12-10",
-      "from_worker": "Stoyan",
-      "to_worker": "Stoyan"
-    },
-    {
-      "timestamp": "2025-11-26T19:56:33.093620",
-      "from_day": "2025-12-10",
-      "to_day": "2025-12-11",
-      "from_worker": "Stoyan",
-      "to_worker": "Stoyan"
-    },
-    {
-      "timestamp": "2025-11-26T19:56:36.130169",
-      "from_day": "2025-12-11",
-      "to_day": "2025-12-10",
-      "from_worker": "Stoyan",
-      "to_worker": "Stoyan"
     }
   ],
   "d92b6336-ba36-4553-8057-9f8429236a43|soldar|": [
@@ -7399,48 +6139,6 @@
       "to_day": "2025-12-16",
       "from_worker": "Fabio",
       "to_worker": "Fabio"
-    },
-    {
-      "timestamp": "2025-11-26T09:47:13.811009",
-      "from_day": "2026-01-22",
-      "to_day": "2025-11-26",
-      "from_worker": "Fabio",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T09:51:47.968893",
-      "from_day": "2025-11-26",
-      "to_day": "2025-12-16",
-      "from_worker": "Sin planificar",
-      "to_worker": "Fabio"
-    },
-    {
-      "timestamp": "2025-11-26T18:39:26.123236",
-      "from_day": "2025-12-16",
-      "to_day": "2025-12-16",
-      "from_worker": "Fabio",
-      "to_worker": "Stoyan"
-    },
-    {
-      "timestamp": "2025-11-26T19:06:09.472685",
-      "from_day": "2025-12-16",
-      "to_day": "2025-12-12",
-      "from_worker": "Stoyan",
-      "to_worker": "Stoyan"
-    },
-    {
-      "timestamp": "2025-11-26T19:57:42.185493",
-      "from_day": "2025-12-12",
-      "to_day": "2025-12-15",
-      "from_worker": "Stoyan",
-      "to_worker": "Stoyan"
-    },
-    {
-      "timestamp": "2025-11-26T19:57:46.386589",
-      "from_day": "2025-12-15",
-      "to_day": "2025-12-12",
-      "from_worker": "Stoyan",
-      "to_worker": "Stoyan"
     }
   ],
   "2dca092c-ae48-4eb4-98a3-4ac7c08405da|soldar|": [
@@ -7464,34 +6162,6 @@
       "to_day": "2025-12-18",
       "from_worker": "Fabio",
       "to_worker": "Fabio"
-    },
-    {
-      "timestamp": "2025-11-26T09:47:10.619897",
-      "from_day": "2026-01-26",
-      "to_day": "2025-11-26",
-      "from_worker": "Fabio",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T09:51:59.787638",
-      "from_day": "2025-11-26",
-      "to_day": "2025-12-18",
-      "from_worker": "Sin planificar",
-      "to_worker": "Fabio"
-    },
-    {
-      "timestamp": "2025-11-26T18:39:40.919835",
-      "from_day": "2025-12-18",
-      "to_day": "2025-12-18",
-      "from_worker": "Fabio",
-      "to_worker": "Stoyan"
-    },
-    {
-      "timestamp": "2025-11-26T19:06:23.731618",
-      "from_day": "2025-12-18",
-      "to_day": "2025-12-16",
-      "from_worker": "Stoyan",
-      "to_worker": "Stoyan"
     }
   ],
   "861a07cf-b7cd-4d9e-8cb4-469aa5d12daa|montar|": [
@@ -7500,13 +6170,6 @@
       "from_day": "2026-01-06",
       "to_day": "2025-11-21",
       "from_worker": "Sin planificar",
-      "to_worker": "Unai"
-    },
-    {
-      "timestamp": "2025-11-26T11:00:05.894388",
-      "from_day": "2025-11-20",
-      "to_day": "2025-11-21",
-      "from_worker": "Unai",
       "to_worker": "Unai"
     }
   ],
@@ -7531,20 +6194,6 @@
       "to_day": "2025-11-25",
       "from_worker": "Iban",
       "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T09:24:33.287503",
-      "from_day": "2026-02-06",
-      "to_day": "2025-11-26",
-      "from_worker": "Iban",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T18:10:46.979348",
-      "from_day": "2025-11-26",
-      "to_day": "2025-12-05",
-      "from_worker": "Sin planificar",
-      "to_worker": "Danilzo"
     }
   ],
   "0f5a3d53-85be-4dec-b157-79e88d763617|pintar|": [
@@ -7572,27 +6221,6 @@
     {
       "timestamp": "2025-11-25T12:29:03.009357",
       "from_day": "2025-12-01",
-      "to_day": "2025-12-02",
-      "from_worker": "Eneko",
-      "to_worker": "Eneko"
-    },
-    {
-      "timestamp": "2025-11-26T18:27:39.664110",
-      "from_day": "2025-12-01",
-      "to_day": "2025-12-02",
-      "from_worker": "Eneko",
-      "to_worker": "Eneko"
-    },
-    {
-      "timestamp": "2025-11-27T08:28:48.494529",
-      "from_day": "2025-12-02",
-      "to_day": "2025-12-03",
-      "from_worker": "Eneko",
-      "to_worker": "Eneko"
-    },
-    {
-      "timestamp": "2025-11-27T08:31:42.947794",
-      "from_day": "2025-12-03",
       "to_day": "2025-12-02",
       "from_worker": "Eneko",
       "to_worker": "Eneko"
@@ -7640,27 +6268,6 @@
       "to_day": "2025-11-25",
       "from_worker": "Sebastian",
       "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T09:46:48.190539",
-      "from_day": "2025-12-18",
-      "to_day": "2025-11-26",
-      "from_worker": "Naparra",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T18:03:38.152365",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-25",
-      "from_worker": "Sin planificar",
-      "to_worker": "Albi"
-    },
-    {
-      "timestamp": "2025-11-26T18:03:42.793866",
-      "from_day": "2025-11-25",
-      "to_day": "2025-11-26",
-      "from_worker": "Albi",
-      "to_worker": "Danilzo"
     }
   ],
   "e386f0fd-8a35-40c2-a8e7-3c57b5f538d5|soldar 2�|": [
@@ -7702,20 +6309,6 @@
       "to_day": "2025-12-05",
       "from_worker": "Sin planificar",
       "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T09:31:50.475109",
-      "from_day": "2025-12-19",
-      "to_day": "2025-12-05",
-      "from_worker": "Sin planificar",
-      "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T18:43:36.970028",
-      "from_day": "2025-12-05",
-      "to_day": "2025-12-04",
-      "from_worker": "Iban",
-      "to_worker": "Mikel"
     }
   ],
   "f2c1ba3a-cba9-45e1-93c2-991800698937|soldar|": [
@@ -7725,27 +6318,6 @@
       "to_day": "2025-12-05",
       "from_worker": "Sin planificar",
       "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T09:24:41.899495",
-      "from_day": "2026-02-11",
-      "to_day": "2025-11-26",
-      "from_worker": "Iban",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T09:31:54.849992",
-      "from_day": "2025-11-26",
-      "to_day": "2025-12-05",
-      "from_worker": "Sin planificar",
-      "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T18:43:39.815067",
-      "from_day": "2025-12-05",
-      "to_day": "2025-12-04",
-      "from_worker": "Iban",
-      "to_worker": "Mikel"
     }
   ],
   "8411c172-7224-452d-bd2a-8f68c7ed1f83|montar|": [
@@ -7776,48 +6348,6 @@
       "to_day": "2025-11-28",
       "from_worker": "Naparra",
       "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-26T09:24:24.834184",
-      "from_day": "2026-01-22",
-      "to_day": "2025-11-26",
-      "from_worker": "Iban",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T09:46:02.624364",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-27",
-      "from_worker": "Sin planificar",
-      "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T17:39:42.163949",
-      "from_day": "2025-11-27",
-      "to_day": "2025-11-26",
-      "from_worker": "Naparra",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T17:39:59.706393",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-26",
-      "from_worker": "Sin planificar",
-      "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T18:24:30.300042",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-26",
-      "from_worker": "Naparra",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T18:24:59.466075",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-26",
-      "from_worker": "Sin planificar",
-      "to_worker": "Naparra"
     }
   ],
   "8411c172-7224-452d-bd2a-8f68c7ed1f83|soldar|": [
@@ -7834,27 +6364,6 @@
       "to_day": "2025-12-02",
       "from_worker": "Beltxa",
       "to_worker": "Beltxa"
-    },
-    {
-      "timestamp": "2025-11-26T09:47:07.188874",
-      "from_day": "2026-01-30",
-      "to_day": "2025-11-26",
-      "from_worker": "Fabio",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T09:53:06.458547",
-      "from_day": "2025-11-26",
-      "to_day": "2025-12-02",
-      "from_worker": "Sin planificar",
-      "to_worker": "Beltxa"
-    },
-    {
-      "timestamp": "2025-11-26T18:38:27.322193",
-      "from_day": "2025-12-02",
-      "to_day": "2025-12-03",
-      "from_worker": "Beltxa",
-      "to_worker": "Fabio"
     }
   ],
   "8411c172-7224-452d-bd2a-8f68c7ed1f83|pintar|": [
@@ -7863,20 +6372,6 @@
       "from_day": "2026-02-05",
       "to_day": "2025-12-15",
       "from_worker": "Sin planificar",
-      "to_worker": "Unai"
-    },
-    {
-      "timestamp": "2025-11-26T11:03:13.693511",
-      "from_day": "2026-02-12",
-      "to_day": "2026-01-15",
-      "from_worker": "Unai",
-      "to_worker": "Unai"
-    },
-    {
-      "timestamp": "2025-11-26T11:03:36.918129",
-      "from_day": "2026-01-15",
-      "to_day": "2025-12-15",
-      "from_worker": "Unai",
       "to_worker": "Unai"
     }
   ],
@@ -7917,27 +6412,6 @@
       "to_day": "2025-12-01",
       "from_worker": "Sebastian",
       "to_worker": "Fabio"
-    },
-    {
-      "timestamp": "2025-11-26T09:57:16.272923",
-      "from_day": "2025-11-28",
-      "to_day": "2025-11-27",
-      "from_worker": "Sebastian",
-      "to_worker": "Sebastian"
-    },
-    {
-      "timestamp": "2025-11-26T09:57:40.426010",
-      "from_day": "2025-11-27",
-      "to_day": "2025-11-26",
-      "from_worker": "Sebastian",
-      "to_worker": "Sebastian"
-    },
-    {
-      "timestamp": "2025-11-26T19:36:31.666576",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-26",
-      "from_worker": "Sebastian",
-      "to_worker": "Sin planificar"
     }
   ],
   "a1f59d51-aff6-4cd4-8f80-b18cbd4bab7e|montar|": [
@@ -7951,13 +6425,6 @@
     {
       "timestamp": "2025-11-21T07:28:29.091651",
       "from_day": "2025-11-24",
-      "to_day": "2025-11-25",
-      "from_worker": "Sebastian",
-      "to_worker": "Sebastian"
-    },
-    {
-      "timestamp": "2025-11-26T09:57:37.561559",
-      "from_day": "2025-11-26",
       "to_day": "2025-11-25",
       "from_worker": "Sebastian",
       "to_worker": "Sebastian"
@@ -7977,27 +6444,6 @@
       "to_day": "2025-11-18",
       "from_worker": "Albi",
       "to_worker": "Albi"
-    },
-    {
-      "timestamp": "2025-11-26T12:23:53.769714",
-      "from_day": "2025-10-24",
-      "to_day": "2025-10-31",
-      "from_worker": "Albi",
-      "to_worker": "Albi"
-    },
-    {
-      "timestamp": "2025-11-26T12:23:57.713478",
-      "from_day": "2025-10-31",
-      "to_day": "2025-10-30",
-      "from_worker": "Albi",
-      "to_worker": "Albi"
-    },
-    {
-      "timestamp": "2025-11-26T12:24:16.748861",
-      "from_day": "2025-10-30",
-      "to_day": "2025-10-28",
-      "from_worker": "Albi",
-      "to_worker": "Albi"
     }
   ],
   "d555fc43-1d98-4811-ba30-ffba01e4bc73|montar|": [
@@ -8006,20 +6452,6 @@
       "from_day": "2026-02-03",
       "to_day": "2025-11-28",
       "from_worker": "Sin planificar",
-      "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-26T09:21:17.079160",
-      "from_day": "2025-12-19",
-      "to_day": "2025-11-27",
-      "from_worker": "Mikel",
-      "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-26T09:21:28.355661",
-      "from_day": "2025-11-27",
-      "to_day": "2025-11-28",
-      "from_worker": "Mikel",
       "to_worker": "Mikel"
     }
   ],
@@ -8041,13 +6473,6 @@
     {
       "timestamp": "2025-11-20T17:24:57.600453",
       "from_day": "2025-12-01",
-      "to_day": "2025-11-28",
-      "from_worker": "Mikel",
-      "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-26T09:21:25.357802",
-      "from_day": "2025-12-19",
       "to_day": "2025-11-28",
       "from_worker": "Mikel",
       "to_worker": "Mikel"
@@ -8083,41 +6508,6 @@
       "to_day": "2025-12-17",
       "from_worker": "Sin planificar",
       "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T09:33:18.270649",
-      "from_day": "2026-01-07",
-      "to_day": "2025-11-26",
-      "from_worker": "Iban",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T09:36:29.012534",
-      "from_day": "2025-11-26",
-      "to_day": "2025-12-18",
-      "from_worker": "Sin planificar",
-      "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T19:00:02.921093",
-      "from_day": "2025-12-18",
-      "to_day": "2025-12-18",
-      "from_worker": "Iban",
-      "to_worker": "Fabio"
-    },
-    {
-      "timestamp": "2025-11-26T19:00:12.782095",
-      "from_day": "2025-12-18",
-      "to_day": "2025-12-18",
-      "from_worker": "Fabio",
-      "to_worker": "Unai"
-    },
-    {
-      "timestamp": "2025-11-26T19:00:16.304542",
-      "from_day": "2025-12-18",
-      "to_day": "2025-12-18",
-      "from_worker": "Unai",
-      "to_worker": "Danilzo"
     }
   ],
   "d9b4f691-9d2b-4355-88ac-767a05087035|montar 2�|": [
@@ -8154,13 +6544,6 @@
       "to_day": "2025-12-05",
       "from_worker": "Eneko",
       "to_worker": "Eneko"
-    },
-    {
-      "timestamp": "2025-11-26T10:56:56.518898",
-      "from_day": "2026-01-08",
-      "to_day": "2025-12-10",
-      "from_worker": "Eneko",
-      "to_worker": "Eneko"
     }
   ],
   "861a07cf-b7cd-4d9e-8cb4-469aa5d12daa|soldar|": [
@@ -8177,34 +6560,6 @@
       "to_day": "2025-11-27",
       "from_worker": "Danilzo",
       "to_worker": "Danilzo"
-    },
-    {
-      "timestamp": "2025-11-26T11:01:55.633359",
-      "from_day": "2025-11-25",
-      "to_day": "2025-12-01",
-      "from_worker": "Danilzo",
-      "to_worker": "Danilzo"
-    },
-    {
-      "timestamp": "2025-11-26T18:07:30.321042",
-      "from_day": "2025-12-01",
-      "to_day": "2025-11-27",
-      "from_worker": "Danilzo",
-      "to_worker": "Danilzo"
-    },
-    {
-      "timestamp": "2025-11-26T18:08:19.647023",
-      "from_day": "2025-11-27",
-      "to_day": "2025-11-25",
-      "from_worker": "Danilzo",
-      "to_worker": "Stoyan"
-    },
-    {
-      "timestamp": "2025-11-26T18:09:31.996825",
-      "from_day": "2025-11-25",
-      "to_day": "2025-11-24",
-      "from_worker": "Stoyan",
-      "to_worker": "Stoyan"
     }
   ],
   "1fc87d40-fe78-4adb-9b3c-e213a2fb4e4e|montar|": [
@@ -8214,27 +6569,6 @@
       "to_day": "2026-01-07",
       "from_worker": "Sin planificar",
       "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T09:33:22.628086",
-      "from_day": "2026-01-09",
-      "to_day": "2025-11-26",
-      "from_worker": "Iban",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T19:40:27.623963",
-      "from_day": "2025-11-26",
-      "to_day": "2026-01-07",
-      "from_worker": "Sin planificar",
-      "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T19:42:35.965300",
-      "from_day": "2026-01-07",
-      "to_day": "2026-01-09",
-      "from_worker": "Naparra",
-      "to_worker": "Iban"
     }
   ],
   "1fc87d40-fe78-4adb-9b3c-e213a2fb4e4e|soldar|": [
@@ -8244,27 +6578,6 @@
       "to_day": "2026-01-12",
       "from_worker": "Sin planificar",
       "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T09:46:56.029073",
-      "from_day": "2026-01-14",
-      "to_day": "2025-11-26",
-      "from_worker": "Naparra",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T19:40:38.552989",
-      "from_day": "2025-11-26",
-      "to_day": "2026-01-12",
-      "from_worker": "Sin planificar",
-      "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T19:42:40.698330",
-      "from_day": "2026-01-12",
-      "to_day": "2026-01-14",
-      "from_worker": "Naparra",
-      "to_worker": "Iban"
     }
   ],
   "1fc87d40-fe78-4adb-9b3c-e213a2fb4e4e|soldar 2�|": [
@@ -8274,34 +6587,6 @@
       "to_day": "2026-01-13",
       "from_worker": "Sin planificar",
       "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T09:46:59.749548",
-      "from_day": "2026-01-16",
-      "to_day": "2025-11-26",
-      "from_worker": "Naparra",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T19:40:55.804399",
-      "from_day": "2025-11-26",
-      "to_day": "2026-01-14",
-      "from_worker": "Sin planificar",
-      "to_worker": "Eneko"
-    },
-    {
-      "timestamp": "2025-11-26T19:41:05.292696",
-      "from_day": "2026-01-14",
-      "to_day": "2026-01-13",
-      "from_worker": "Eneko",
-      "to_worker": "Eneko"
-    },
-    {
-      "timestamp": "2025-11-26T19:42:56.453818",
-      "from_day": "2026-01-13",
-      "to_day": "2026-01-15",
-      "from_worker": "Eneko",
-      "to_worker": "Iban"
     }
   ],
   "1fc87d40-fe78-4adb-9b3c-e213a2fb4e4e|pintar|": [
@@ -8343,27 +6628,6 @@
       "to_day": "2025-11-28",
       "from_worker": "Sin planificar",
       "to_worker": "Albi"
-    },
-    {
-      "timestamp": "2025-11-26T10:50:53.466993",
-      "from_day": "2025-11-21",
-      "to_day": "2025-11-25",
-      "from_worker": "Albi",
-      "to_worker": "Albi"
-    },
-    {
-      "timestamp": "2025-11-26T10:50:57.882134",
-      "from_day": "2025-11-25",
-      "to_day": "2025-11-28",
-      "from_worker": "Albi",
-      "to_worker": "Albi"
-    },
-    {
-      "timestamp": "2025-11-28T09:18:33.779943",
-      "from_day": "2025-11-28",
-      "to_day": "2025-12-03",
-      "from_worker": "Albi",
-      "to_worker": "Albi"
     }
   ],
   "8a835307-bdc0-449b-9865-df9a2724f5b0|montar|": [
@@ -8372,20 +6636,6 @@
       "from_day": "2026-02-03",
       "to_day": "2025-12-01",
       "from_worker": "Sin planificar",
-      "to_worker": "Eneko"
-    },
-    {
-      "timestamp": "2025-11-27T08:29:50.306162",
-      "from_day": "2025-12-16",
-      "to_day": "2025-12-01",
-      "from_worker": "Sin planificar",
-      "to_worker": "Sebastian"
-    },
-    {
-      "timestamp": "2025-11-27T08:29:55.063262",
-      "from_day": "2025-12-01",
-      "to_day": "2025-12-01",
-      "from_worker": "Sebastian",
       "to_worker": "Eneko"
     }
   ],
@@ -8405,33 +6655,12 @@
       "to_day": "2025-12-01",
       "from_worker": "Sin planificar",
       "to_worker": "Eneko"
-    },
-    {
-      "timestamp": "2025-11-27T08:31:18.027449",
-      "from_day": "2025-12-16",
-      "to_day": "2025-12-01",
-      "from_worker": "Eneko",
-      "to_worker": "Eneko"
     }
   ],
   "b04b4c0e-59d9-47e5-ba68-7a4bbdf90850|montar|": [
     {
       "timestamp": "2025-11-25T12:29:56.796389",
       "from_day": "2026-02-12",
-      "to_day": "2025-12-01",
-      "from_worker": "Sin planificar",
-      "to_worker": "Eneko"
-    },
-    {
-      "timestamp": "2025-11-27T08:30:45.634966",
-      "from_day": "2025-12-18",
-      "to_day": "2025-11-27",
-      "from_worker": "Eneko",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-27T08:31:02.839342",
-      "from_day": "2025-11-27",
       "to_day": "2025-12-01",
       "from_worker": "Sin planificar",
       "to_worker": "Eneko"
@@ -8452,13 +6681,6 @@
       "from_day": "2026-02-16",
       "to_day": "2025-12-01",
       "from_worker": "Sin planificar",
-      "to_worker": "Eneko"
-    },
-    {
-      "timestamp": "2025-11-27T08:31:37.703096",
-      "from_day": "2025-12-18",
-      "to_day": "2025-12-01",
-      "from_worker": "Eneko",
       "to_worker": "Eneko"
     }
   ],
@@ -8489,13 +6711,6 @@
       "from_day": "2025-11-28",
       "to_day": "2025-11-27",
       "from_worker": "Mikel",
-      "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-26T17:27:08.738348",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-27",
-      "from_worker": "Sin planificar",
       "to_worker": "Mikel"
     }
   ],
@@ -9158,784 +7373,6 @@
       "to_day": "2025-12-18",
       "from_worker": "Stoyan",
       "to_worker": "Eneko"
-    }
-  ],
-  "2dffab47-ac57-4557-b478-a5e0a2b6b110|preparar material|": [
-    {
-      "timestamp": "2025-11-26T09:09:23.227092",
-      "from_day": "2025-11-25",
-      "to_day": "2025-11-26",
-      "from_worker": "Mikel",
-      "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-26T09:09:26.750978",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-27",
-      "from_worker": "Mikel",
-      "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-26T09:09:30.023243",
-      "from_day": "2025-11-27",
-      "to_day": "2025-11-27",
-      "from_worker": "Mikel",
-      "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T09:09:32.945580",
-      "from_day": "2025-11-27",
-      "to_day": "2025-11-26",
-      "from_worker": "Iban",
-      "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-26T09:20:42.125438",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-26",
-      "from_worker": "Mikel",
-      "to_worker": "Sin planificar"
-    }
-  ],
-  "91a6a465-7edd-4599-b46a-4a35fbe7bcc2|montar|": [
-    {
-      "timestamp": "2025-11-26T09:21:38.642696",
-      "from_day": "2025-12-16",
-      "to_day": "2025-11-26",
-      "from_worker": "Mikel",
-      "to_worker": "Sin planificar"
-    }
-  ],
-  "96f8103c-0ee2-42cf-b68d-3fe249a1ae12|montar|": [
-    {
-      "timestamp": "2025-11-26T09:21:46.275891",
-      "from_day": "2025-12-18",
-      "to_day": "2025-11-26",
-      "from_worker": "Mikel",
-      "to_worker": "Sin planificar"
-    }
-  ],
-  "9c9d7122-cb67-4526-a1ee-2faffb7b372d|montar|": [
-    {
-      "timestamp": "2025-11-26T09:24:45.768349",
-      "from_day": "2026-02-11",
-      "to_day": "2025-11-26",
-      "from_worker": "Iban",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T18:56:25.583395",
-      "from_day": "2025-11-26",
-      "to_day": "2025-12-04",
-      "from_worker": "Sin planificar",
-      "to_worker": "Iban"
-    }
-  ],
-  "9c9d7122-cb67-4526-a1ee-2faffb7b372d|recepcionar material|": [
-    {
-      "timestamp": "2025-11-26T09:24:56.111096",
-      "from_day": "2026-03-05",
-      "to_day": "2025-11-26",
-      "from_worker": "Iban",
-      "to_worker": "Sin planificar"
-    }
-  ],
-  "051009ef-fd6c-434c-a426-e11b6f6c552a|soldar|": [
-    {
-      "timestamp": "2025-11-26T09:29:30.530123",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-26",
-      "from_worker": "Sin planificar",
-      "to_worker": "Iban"
-    }
-  ],
-  "c8dc0aee-4f0d-41a8-8d73-c73d0f9b3f4e|montar|": [
-    {
-      "timestamp": "2025-11-26T09:33:02.655809",
-      "from_day": "2025-12-16",
-      "to_day": "2025-11-26",
-      "from_worker": "Iban",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T12:14:22.781655",
-      "from_day": "2025-11-26",
-      "to_day": "2025-10-24",
-      "from_worker": "Sin planificar",
-      "to_worker": "Mikel"
-    }
-  ],
-  "0f5a3d53-85be-4dec-b157-79e88d763617|recepcionar material|": [
-    {
-      "timestamp": "2025-11-26T10:53:37.403646",
-      "from_day": "2025-12-15",
-      "to_day": "2025-11-26",
-      "from_worker": "Albi",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T12:23:13.702771",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-14",
-      "from_worker": "Sin planificar",
-      "to_worker": "Albi"
-    }
-  ],
-  "97159349-cc6d-4db8-8cc8-5aceb17c9772|pintar|": [
-    {
-      "timestamp": "2025-11-26T10:57:55.424302",
-      "from_day": "2025-12-12",
-      "to_day": "2025-12-19",
-      "from_worker": "Eneko",
-      "to_worker": "Eneko"
-    }
-  ],
-  "13a9fab6-3eea-4f4b-89f9-c062d9499922|soldar#2|": [
-    {
-      "timestamp": "2025-11-26T11:57:09.283922",
-      "from_day": "2025-11-10",
-      "to_day": "2025-11-13",
-      "from_worker": "Fabio",
-      "to_worker": "Stoyan"
-    }
-  ],
-  "f4810a29-fd23-4d48-931d-8c6f43d90d38|soldar#2|": [
-    {
-      "timestamp": "2025-11-26T12:02:21.936243",
-      "from_day": "2025-11-20",
-      "to_day": "2025-11-26",
-      "from_worker": "Sebastian",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T17:28:16.755965",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-27",
-      "from_worker": "Sin planificar",
-      "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-28T07:53:19.469026",
-      "from_day": "2025-11-27",
-      "to_day": "2025-11-28",
-      "from_worker": "Mikel",
-      "to_worker": "Mikel"
-    }
-  ],
-  "e386f0fd-8a35-40c2-a8e7-3c57b5f538d5|montar 2�|": [
-    {
-      "timestamp": "2025-11-26T12:10:04.915093",
-      "from_day": "2025-11-27",
-      "to_day": "2025-11-13",
-      "from_worker": "Sin planificar",
-      "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-26T12:10:30.393805",
-      "from_day": "2025-11-13",
-      "to_day": "2025-11-14",
-      "from_worker": "Mikel",
-      "to_worker": "Mikel"
-    }
-  ],
-  "e386f0fd-8a35-40c2-a8e7-3c57b5f538d5|soldar#2|": [
-    {
-      "timestamp": "2025-11-26T12:10:59.076952",
-      "from_day": "2025-11-17",
-      "to_day": "2025-11-17",
-      "from_worker": "Mikel",
-      "to_worker": "Beltxa"
-    }
-  ],
-  "c8dc0aee-4f0d-41a8-8d73-c73d0f9b3f4e|soldar#2|": [
-    {
-      "timestamp": "2025-11-26T12:17:47.978226",
-      "from_day": "2025-11-10",
-      "to_day": "2025-11-07",
-      "from_worker": "Eneko",
-      "to_worker": "Albi"
-    }
-  ],
-  "6a6d9c2a-48b9-4361-aa00-2db413b6fdc9|montar|": [
-    {
-      "timestamp": "2025-11-26T15:50:29.319155",
-      "from_day": "2026-01-05",
-      "to_day": "2025-12-17",
-      "from_worker": "Sin planificar",
-      "to_worker": "Sebastian"
-    },
-    {
-      "timestamp": "2025-11-26T15:50:52.015816",
-      "from_day": "2025-12-17",
-      "to_day": "2025-12-18",
-      "from_worker": "Sebastian",
-      "to_worker": "Sebastian"
-    },
-    {
-      "timestamp": "2025-11-26T15:51:51.357637",
-      "from_day": "2025-12-18",
-      "to_day": "2025-11-26",
-      "from_worker": "Sebastian",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T19:49:09.563040",
-      "from_day": "2025-11-26",
-      "to_day": "2026-01-07",
-      "from_worker": "Sin planificar",
-      "to_worker": "Joseba"
-    }
-  ],
-  "d7f3e94b-7632-409f-a2d5-78a2bbf838a4|soldar|": [
-    {
-      "timestamp": "2025-11-26T16:57:40.689295",
-      "from_day": "2025-12-26",
-      "to_day": "2025-11-27",
-      "from_worker": "Sin planificar",
-      "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T17:41:45.550822",
-      "from_day": "2025-11-27",
-      "to_day": "2025-11-28",
-      "from_worker": "Iban",
-      "to_worker": "Albi"
-    },
-    {
-      "timestamp": "2025-11-26T19:09:04.465612",
-      "from_day": "2025-11-28",
-      "to_day": "2025-12-03",
-      "from_worker": "Albi",
-      "to_worker": "Albi"
-    },
-    {
-      "timestamp": "2025-11-26T19:10:57.228977",
-      "from_day": "2025-12-03",
-      "to_day": "2025-12-03",
-      "from_worker": "Albi",
-      "to_worker": "Sebastian"
-    },
-    {
-      "timestamp": "2025-11-26T19:11:19.210865",
-      "from_day": "2025-12-03",
-      "to_day": "2025-12-03",
-      "from_worker": "Sebastian",
-      "to_worker": "Albi"
-    }
-  ],
-  "d7f3e94b-7632-409f-a2d5-78a2bbf838a4|montar 2�|": [
-    {
-      "timestamp": "2025-11-26T16:57:45.369530",
-      "from_day": "2025-12-29",
-      "to_day": "2025-11-28",
-      "from_worker": "Sin planificar",
-      "to_worker": "Iban"
-    },
-    {
-      "timestamp": "2025-11-26T19:27:21.553039",
-      "from_day": "2025-11-28",
-      "to_day": "2025-11-26",
-      "from_worker": "Iban",
-      "to_worker": "Sin planificar"
-    }
-  ],
-  "d805111f-beda-434d-8d80-8373fdb7cc48|pintar|": [
-    {
-      "timestamp": "2025-11-26T18:30:19.035655",
-      "from_day": "2025-11-26",
-      "to_day": "2025-12-01",
-      "from_worker": "Sin planificar",
-      "to_worker": "Eneko"
-    },
-    {
-      "timestamp": "2025-11-27T08:28:51.120317",
-      "from_day": "2025-12-01",
-      "to_day": "2025-12-02",
-      "from_worker": "Eneko",
-      "to_worker": "Eneko"
-    }
-  ],
-  "62d93372-cf3a-4778-9720-09af73b1649b|montar|": [
-    {
-      "timestamp": "2025-11-26T18:33:40.002784",
-      "from_day": "2026-01-05",
-      "to_day": "2025-12-02",
-      "from_worker": "Sin planificar",
-      "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-26T18:42:49.837168",
-      "from_day": "2025-12-03",
-      "to_day": "2025-12-02",
-      "from_worker": "Mikel",
-      "to_worker": "Mikel"
-    }
-  ],
-  "ccd47f5c-d882-446d-a090-36562a7b3879|montar|": [
-    {
-      "timestamp": "2025-11-26T18:33:51.795503",
-      "from_day": "2026-01-08",
-      "to_day": "2025-12-03",
-      "from_worker": "Sin planificar",
-      "to_worker": "Mikel"
-    }
-  ],
-  "3560c6cd-facb-4cb0-847a-f10de01370fe|soldar|": [
-    {
-      "timestamp": "2025-11-26T18:41:35.412289",
-      "from_day": "2025-12-25",
-      "to_day": "2025-12-01",
-      "from_worker": "Sin planificar",
-      "to_worker": "Mikel"
-    },
-    {
-      "timestamp": "2025-11-26T18:42:36.831207",
-      "from_day": "2025-12-01",
-      "to_day": "2025-11-26",
-      "from_worker": "Mikel",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T18:43:00.216041",
-      "from_day": "2025-11-26",
-      "to_day": "2025-12-02",
-      "from_worker": "Sin planificar",
-      "to_worker": "Beltxa"
-    }
-  ],
-  "bb35edfd-3e99-4449-8b34-c1daac3b8a88|montar 2�|": [
-    {
-      "timestamp": "2025-11-26T18:57:52.076244",
-      "from_day": "2026-01-12",
-      "to_day": "2025-12-15",
-      "from_worker": "Sin planificar",
-      "to_worker": "Joseba"
-    },
-    {
-      "timestamp": "2025-11-26T18:57:58.076185",
-      "from_day": "2025-12-15",
-      "to_day": "2025-11-26",
-      "from_worker": "Joseba",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T18:59:00.201723",
-      "from_day": "2025-11-26",
-      "to_day": "2025-12-18",
-      "from_worker": "Sin planificar",
-      "to_worker": "Sebastian"
-    },
-    {
-      "timestamp": "2025-11-26T19:01:32.624212",
-      "from_day": "2025-12-18",
-      "to_day": "2025-12-18",
-      "from_worker": "Sebastian",
-      "to_worker": "Beltxa"
-    }
-  ],
-  "bb35edfd-3e99-4449-8b34-c1daac3b8a88|montar|": [
-    {
-      "timestamp": "2025-11-26T18:58:36.887397",
-      "from_day": "2026-01-06",
-      "to_day": "2025-12-15",
-      "from_worker": "Sin planificar",
-      "to_worker": "Joseba"
-    }
-  ],
-  "bb35edfd-3e99-4449-8b34-c1daac3b8a88|soldar|": [
-    {
-      "timestamp": "2025-11-26T18:58:53.721843",
-      "from_day": "2026-01-08",
-      "to_day": "2025-12-17",
-      "from_worker": "Sin planificar",
-      "to_worker": "Sebastian"
-    },
-    {
-      "timestamp": "2025-11-26T19:01:22.649790",
-      "from_day": "2025-12-17",
-      "to_day": "2025-12-17",
-      "from_worker": "Sebastian",
-      "to_worker": "Beltxa"
-    }
-  ],
-  "9c9d7122-cb67-4526-a1ee-2faffb7b372d|soldar|": [
-    {
-      "timestamp": "2025-11-26T19:00:50.657259",
-      "from_day": "2026-02-23",
-      "to_day": "2025-12-04",
-      "from_worker": "Sin planificar",
-      "to_worker": "Beltxa"
-    }
-  ],
-  "9c9d7122-cb67-4526-a1ee-2faffb7b372d|preparar material|": [
-    {
-      "timestamp": "2025-11-26T19:09:11.544428",
-      "from_day": "2025-11-26",
-      "to_day": "2025-12-02",
-      "from_worker": "Sin planificar",
-      "to_worker": "Albi"
-    }
-  ],
-  "1301da2b-9bbe-41cc-a8f9-a93cac2c27f3|montar|": [
-    {
-      "timestamp": "2025-11-26T19:10:50.600860",
-      "from_day": "2025-12-24",
-      "to_day": "2025-12-02",
-      "from_worker": "Sin planificar",
-      "to_worker": "Sebastian"
-    },
-    {
-      "timestamp": "2025-11-26T19:11:13.521803",
-      "from_day": "2025-12-02",
-      "to_day": "2025-12-03",
-      "from_worker": "Sebastian",
-      "to_worker": "Albi"
-    },
-    {
-      "timestamp": "2025-11-28T09:18:25.613171",
-      "from_day": "2025-12-03",
-      "to_day": "2025-11-28",
-      "from_worker": "Albi",
-      "to_worker": "Albi"
-    }
-  ],
-  "e8da3432-5231-452c-8403-262d3c8695fc|montar|": [
-    {
-      "timestamp": "2025-11-26T19:32:58.455033",
-      "from_day": "2026-01-08",
-      "to_day": "2026-01-09",
-      "from_worker": "Sin planificar",
-      "to_worker": "Mikel"
-    }
-  ],
-  "4c281185-608a-4b42-b4db-b3e6a0a9318a|montar|": [
-    {
-      "timestamp": "2025-11-26T19:33:27.611320",
-      "from_day": "2025-12-25",
-      "to_day": "2025-12-11",
-      "from_worker": "Sin planificar",
-      "to_worker": "Naparra"
-    }
-  ],
-  "4c281185-608a-4b42-b4db-b3e6a0a9318a|soldar|": [
-    {
-      "timestamp": "2025-11-26T19:34:28.384772",
-      "from_day": "2026-01-02",
-      "to_day": "2025-12-12",
-      "from_worker": "Sin planificar",
-      "to_worker": "Albi"
-    }
-  ],
-  "fd05ee6d-9aaf-4097-ac8d-eef4b093cb93|pintar|": [
-    {
-      "timestamp": "2025-11-26T19:39:28.110199",
-      "from_day": "2025-12-15",
-      "to_day": "2026-01-14",
-      "from_worker": "Sin planificar",
-      "to_worker": "Fabio"
-    },
-    {
-      "timestamp": "2025-11-26T19:45:17.123200",
-      "from_day": "2026-01-14",
-      "to_day": "2026-01-13",
-      "from_worker": "Fabio",
-      "to_worker": "Beltxa"
-    }
-  ],
-  "e8da3432-5231-452c-8403-262d3c8695fc|pintar|": [
-    {
-      "timestamp": "2025-11-26T19:43:20.239814",
-      "from_day": "2026-01-16",
-      "to_day": "2026-01-20",
-      "from_worker": "Sin planificar",
-      "to_worker": "Albi"
-    },
-    {
-      "timestamp": "2025-11-26T19:43:23.421763",
-      "from_day": "2026-01-20",
-      "to_day": "2026-01-20",
-      "from_worker": "Albi",
-      "to_worker": "Eneko"
-    }
-  ],
-  "5b5ede12-c990-4e91-aa5a-5ea45dcf9cfa|soldar 2�|": [
-    {
-      "timestamp": "2025-11-26T19:45:30.520295",
-      "from_day": "2025-12-19",
-      "to_day": "2026-01-12",
-      "from_worker": "Sin planificar",
-      "to_worker": "Fabio"
-    }
-  ],
-  "aece7bdf-92fd-4b0c-b802-f36d50bd5017|montar|": [
-    {
-      "timestamp": "2025-11-26T19:46:00.287118",
-      "from_day": "2026-01-05",
-      "to_day": "2026-01-08",
-      "from_worker": "Sin planificar",
-      "to_worker": "Naparra"
-    }
-  ],
-  "6272d2d7-1ea3-4bd7-aed1-bc0b6c6c8a1a|soldar|": [
-    {
-      "timestamp": "2025-11-26T19:46:17.811842",
-      "from_day": "2026-01-06",
-      "to_day": "2026-01-09",
-      "from_worker": "Sin planificar",
-      "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T19:48:15.692246",
-      "from_day": "2026-01-09",
-      "to_day": "2025-11-26",
-      "from_worker": "Naparra",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T19:52:29.698520",
-      "from_day": "2025-11-26",
-      "to_day": "2026-01-14",
-      "from_worker": "Sin planificar",
-      "to_worker": "Beltxa"
-    }
-  ],
-  "aece7bdf-92fd-4b0c-b802-f36d50bd5017|soldar|": [
-    {
-      "timestamp": "2025-11-26T19:46:34.556284",
-      "from_day": "2026-01-06",
-      "to_day": "2026-01-14",
-      "from_worker": "Sin planificar",
-      "to_worker": "Fabio"
-    },
-    {
-      "timestamp": "2025-11-26T19:46:40.237639",
-      "from_day": "2026-01-14",
-      "to_day": "2026-01-13",
-      "from_worker": "Fabio",
-      "to_worker": "Beltxa"
-    }
-  ],
-  "86d9583d-4b23-4ea7-9e08-2d7acbd24515|montar|": [
-    {
-      "timestamp": "2025-11-26T19:47:00.597788",
-      "from_day": "2026-01-15",
-      "to_day": "2026-01-12",
-      "from_worker": "Sin planificar",
-      "to_worker": "Naparra"
-    }
-  ],
-  "60faebe1-903f-44a2-9f08-bfb399b58dab|montar|": [
-    {
-      "timestamp": "2025-11-26T19:47:19.812550",
-      "from_day": "2026-01-15",
-      "to_day": "2026-01-13",
-      "from_worker": "Sin planificar",
-      "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T19:48:42.188647",
-      "from_day": "2026-01-13",
-      "to_day": "2026-01-14",
-      "from_worker": "Naparra",
-      "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T19:48:53.135050",
-      "from_day": "2026-01-14",
-      "to_day": "2026-01-13",
-      "from_worker": "Naparra",
-      "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T19:50:25.851774",
-      "from_day": "2026-01-13",
-      "to_day": "2026-01-15",
-      "from_worker": "Naparra",
-      "to_worker": "Naparra"
-    },
-    {
-      "timestamp": "2025-11-26T19:51:10.989057",
-      "from_day": "2026-01-15",
-      "to_day": "2026-01-13",
-      "from_worker": "Naparra",
-      "to_worker": "Naparra"
-    }
-  ],
-  "86d9583d-4b23-4ea7-9e08-2d7acbd24515|soldar|": [
-    {
-      "timestamp": "2025-11-26T19:47:26.537603",
-      "from_day": "2026-01-16",
-      "to_day": "2026-01-14",
-      "from_worker": "Sin planificar",
-      "to_worker": "Fabio"
-    },
-    {
-      "timestamp": "2025-11-26T19:47:53.051273",
-      "from_day": "2026-01-14",
-      "to_day": "2026-01-14",
-      "from_worker": "Fabio",
-      "to_worker": "Beltxa"
-    },
-    {
-      "timestamp": "2025-11-26T19:52:16.915167",
-      "from_day": "2026-01-14",
-      "to_day": "2026-01-16",
-      "from_worker": "Beltxa",
-      "to_worker": "Beltxa"
-    },
-    {
-      "timestamp": "2025-11-26T19:52:32.962492",
-      "from_day": "2026-01-16",
-      "to_day": "2026-01-15",
-      "from_worker": "Beltxa",
-      "to_worker": "Beltxa"
-    }
-  ],
-  "60faebe1-903f-44a2-9f08-bfb399b58dab|soldar|": [
-    {
-      "timestamp": "2025-11-26T19:47:49.933500",
-      "from_day": "2026-01-20",
-      "to_day": "2025-11-26",
-      "from_worker": "Sin planificar",
-      "to_worker": "Sin planificar"
-    },
-    {
-      "timestamp": "2025-11-26T19:51:27.290335",
-      "from_day": "2025-11-26",
-      "to_day": "2026-01-14",
-      "from_worker": "Sin planificar",
-      "to_worker": "Fabio"
-    }
-  ],
-  "6272d2d7-1ea3-4bd7-aed1-bc0b6c6c8a1a|montar|": [
-    {
-      "timestamp": "2025-11-26T19:48:28.610342",
-      "from_day": "2026-01-05",
-      "to_day": "2026-01-09",
-      "from_worker": "Sin planificar",
-      "to_worker": "Naparra"
-    }
-  ],
-  "6a6d9c2a-48b9-4361-aa00-2db413b6fdc9|soldar|": [
-    {
-      "timestamp": "2025-11-26T19:49:17.541486",
-      "from_day": "2026-01-06",
-      "to_day": "2026-01-08",
-      "from_worker": "Sin planificar",
-      "to_worker": "Beltxa"
-    }
-  ],
-  "6a6d9c2a-48b9-4361-aa00-2db413b6fdc9|preparar material|": [
-    {
-      "timestamp": "2025-11-26T19:49:36.056982",
-      "from_day": "2025-11-26",
-      "to_day": "2025-12-11",
-      "from_worker": "Sin planificar",
-      "to_worker": "Albi"
-    }
-  ],
-  "aece7bdf-92fd-4b0c-b802-f36d50bd5017|montar 2�|": [
-    {
-      "timestamp": "2025-11-26T19:51:21.639574",
-      "from_day": "2026-01-07",
-      "to_day": "2026-01-15",
-      "from_worker": "Sin planificar",
-      "to_worker": "Naparra"
-    }
-  ],
-  "aece7bdf-92fd-4b0c-b802-f36d50bd5017|soldar 2�|": [
-    {
-      "timestamp": "2025-11-26T19:51:45.624301",
-      "from_day": "2026-01-09",
-      "to_day": "2026-01-19",
-      "from_worker": "Sin planificar",
-      "to_worker": "Fabio"
-    }
-  ],
-  "6272d2d7-1ea3-4bd7-aed1-bc0b6c6c8a1a|montar 2�|": [
-    {
-      "timestamp": "2025-11-26T19:52:43.881095",
-      "from_day": "2026-01-07",
-      "to_day": "2026-01-16",
-      "from_worker": "Sin planificar",
-      "to_worker": "Naparra"
-    }
-  ],
-  "6272d2d7-1ea3-4bd7-aed1-bc0b6c6c8a1a|soldar 2�|": [
-    {
-      "timestamp": "2025-11-26T19:52:48.789259",
-      "from_day": "2026-01-09",
-      "to_day": "2026-01-20",
-      "from_worker": "Sin planificar",
-      "to_worker": "Beltxa"
-    }
-  ],
-  "e8da3432-5231-452c-8403-262d3c8695fc|preparar material|": [
-    {
-      "timestamp": "2025-11-26T19:53:30.367778",
-      "from_day": "2025-11-26",
-      "to_day": "2025-12-11",
-      "from_worker": "Sin planificar",
-      "to_worker": "Albi"
-    }
-  ],
-  "245dbfb4-8655-40bb-893e-db9d70ca4faf|montar|": [
-    {
-      "timestamp": "2025-11-26T19:54:58.585118",
-      "from_day": "2026-01-05",
-      "to_day": "2025-12-04",
-      "from_worker": "Sin planificar",
-      "to_worker": "Mikel"
-    }
-  ],
-  "245dbfb4-8655-40bb-893e-db9d70ca4faf|soldar|": [
-    {
-      "timestamp": "2025-11-26T19:56:07.465418",
-      "from_day": "2026-01-06",
-      "to_day": "2025-12-09",
-      "from_worker": "Sin planificar",
-      "to_worker": "Stoyan"
-    },
-    {
-      "timestamp": "2025-11-26T19:58:10.705985",
-      "from_day": "2025-12-09",
-      "to_day": "2025-12-05",
-      "from_worker": "Stoyan",
-      "to_worker": "Stoyan"
-    }
-  ],
-  "245dbfb4-8655-40bb-893e-db9d70ca4faf|pintar|": [
-    {
-      "timestamp": "2025-11-26T20:01:32.299631",
-      "from_day": "2026-01-07",
-      "to_day": "2026-01-21",
-      "from_worker": "Sin planificar",
-      "to_worker": "Eneko"
-    }
-  ],
-  "d7f3e94b-7632-409f-a2d5-78a2bbf838a4|montar#2|": [
-    {
-      "timestamp": "2025-11-28T07:49:35.816387",
-      "from_day": "2025-11-26",
-      "to_day": "2025-11-28",
-      "from_worker": "Iban",
-      "to_worker": "Albi"
-    },
-    {
-      "timestamp": "2025-11-28T07:50:18.126012",
-      "from_day": "2025-11-28",
-      "to_day": "2025-11-27",
-      "from_worker": "Albi",
-      "to_worker": "Albi"
-    }
-  ],
-  "d4057f46-7a8e-4443-bf83-9c803915e9ba|soldar#2|": [
-    {
-      "timestamp": "2025-11-28T07:50:34.213556",
-      "from_day": "2025-11-27",
-      "to_day": "2025-11-28",
-      "from_worker": "Albi",
-      "to_worker": "Albi"
     }
   ]
 }
